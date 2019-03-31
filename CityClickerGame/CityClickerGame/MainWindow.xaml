@@ -1,0 +1,47 @@
+﻿<Window x:Class="CityClickerGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CityClickerGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="940">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="309" Height="530"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="338,10,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="338,134,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="18"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="338,162,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="338,285,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="338,315,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="338,438,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="338,467,0,0" VerticalAlignment="Top" Width="127" Height="117"/>
+        <TextBlock HorizontalAlignment="Left" Margin="338,590,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="488,10,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="488,134,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="18"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="488,162,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="488,285,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="488,315,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="488,438,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="488,467,0,0" VerticalAlignment="Top" Width="127" Height="117"/>
+        <TextBlock HorizontalAlignment="Left" Margin="488,590,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="639,10,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="639,134,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="18"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="639,162,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="639,285,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="639,315,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="639,438,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="639,467,0,0" VerticalAlignment="Top" Width="127" Height="117"/>
+        <TextBlock HorizontalAlignment="Left" Margin="639,590,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="789,10,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="789,134,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="18"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="789,162,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="789,285,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="789,315,0,0" VerticalAlignment="Top" Width="127" Height="118"/>
+        <TextBlock HorizontalAlignment="Left" Margin="789,438,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="789,467,0,0" VerticalAlignment="Top" Width="127" Height="117"/>
+        <TextBlock HorizontalAlignment="Left" Margin="789,590,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="127" Height="19"/>
+        <Image HorizontalAlignment="Left" Height="64" Margin="10,545,0,0" VerticalAlignment="Top" Width="64"/>
+        <TextBlock HorizontalAlignment="Left" Margin="79,545,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="64" Width="240"/>
+
+    </Grid>
+</Window>

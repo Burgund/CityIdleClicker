@@ -24,5 +24,10 @@ namespace CityClickerGame
         {
             InitializeComponent();
         }
+
+        private void Button_Click()
+        {
+
+        }
     }
 }

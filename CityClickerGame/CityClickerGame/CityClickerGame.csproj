@@ -92,7 +92,32 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\clickAreaBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object10.jpg" />
+    <Resource Include="Resources\object11.jpg" />
+    <Resource Include="Resources\object12.jpg" />
+    <Resource Include="Resources\object13.jpg" />
+    <Resource Include="Resources\object14.jpg" />
+    <Resource Include="Resources\object15.jpg" />
+    <Resource Include="Resources\object16.jpg" />
+    <Resource Include="Resources\object2.jpg" />
+    <Resource Include="Resources\object3.jpg" />
+    <Resource Include="Resources\object4.jpg" />
+    <Resource Include="Resources\object5.jpg" />
+    <Resource Include="Resources\object6.jpg" />
+    <Resource Include="Resources\object7.jpg" />
+    <Resource Include="Resources\object8.jpg" />
+    <Resource Include="Resources\object9.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

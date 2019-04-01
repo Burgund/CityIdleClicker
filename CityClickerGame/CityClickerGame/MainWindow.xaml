@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="650" Width="940">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0.117"/>
+                <GradientStop Color="#FF0021F3" Offset="1"/>
+                <GradientStop Color="#FF000D61" Offset="0.427"/>
+                <GradientStop Color="#FF000D61" Offset="0.69"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Button x:Name="clickArea" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="309" Height="530" FontSize="48" >
             <Image Source="Resources/clickAreaBackground.jpg"/>
         </Button>
@@ -107,8 +115,8 @@
 
         <TextBlock x:Name="object16Amount" HorizontalAlignment="Left" Margin="789,590,0,0" TextWrapping="Wrap" Text="16" VerticalAlignment="Top" Width="127" Height="19"/>
         
-        <Image x:Name="humanContainer" HorizontalAlignment="Left" Height="64" Margin="10,545,0,0" VerticalAlignment="Top" Width="64"/>
-        <TextBlock x:Name="humanAmount" HorizontalAlignment="Left" Margin="79,560,0,0" TextWrapping="Wrap" Text="0" Height="35" Width="240" LineHeight="6" FontSize="24" VerticalAlignment="Top"/>
+        <Image x:Name="moneyContainer" HorizontalAlignment="Left" Height="64" Margin="10,545,0,0" VerticalAlignment="Top" Width="64" Source="Resources/money.jpg"/>
+        <TextBlock x:Name="moneyAmount" HorizontalAlignment="Left" Margin="79,560,0,0" TextWrapping="Wrap" Text="0" Height="35" Width="240" LineHeight="6" FontSize="24" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

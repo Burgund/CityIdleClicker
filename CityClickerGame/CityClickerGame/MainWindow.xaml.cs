@@ -23,6 +23,7 @@ namespace CityClickerGame
         public MainWindow()
         {
             InitializeComponent();
+            //clickArea.Content = "TEST";
         }
 
         private void Button_Click()

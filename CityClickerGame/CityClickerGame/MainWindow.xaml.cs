@@ -12,23 +12,36 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace CityClickerGame
 {
-    /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        Wallet wallet = new Wallet(1);
+        CityObject[] buildings = new CityObject[16];
+        Factory factory = new Factory();
+        DispatcherTimer timer = new DispatcherTimer();
+
         public MainWindow()
         {
+            timer.Tick += new EventHandler(clockEvents);
+            timer.Interval = new TimeSpan(0, 0, 1);
+            timer.Start();
+            factory.BuildObjectArray(buildings);
             InitializeComponent();
-            //clickArea.Content = "TEST";
         }
 
-        private void Button_Click()
+        private void clockEvents(object sender, EventArgs e)
         {
+            wallet.AddMoney(wallet.MoneyPerSecond);
+            moneyAmount.Text = Convert.ToString(wallet.TotalMoney);
+        }
 
+        private void clickArea_Click(object sender, RoutedEventArgs e)
+        {
+            wallet.AddMoney(wallet.MoneyPerClick);
+            moneyAmount.Text = Convert.ToString(wallet.TotalMoney);
         }
     }
 }

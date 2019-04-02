@@ -9,12 +9,20 @@ namespace CityClickerGame
     class CityObject
     {
         private string name;
-        private int price = 0;
+        private long price = 0;
         private int amount = 0;
+        private int earnings = 0;
 
-        public int Price { get => price; }
+        public CityObject(int price, int earnings)
+        {
+            this.earnings = earnings;
+            this.price = price;
+        }
+
+        public long Price { get => price; }
         public int Amount { get => amount; }
         public string Name { get => name; }
+        public int Earnings { get => earnings; }
 
         public void IncreasePrice()
         {

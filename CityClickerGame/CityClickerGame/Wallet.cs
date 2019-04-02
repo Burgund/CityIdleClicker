@@ -8,22 +8,27 @@ namespace CityClickerGame
 {
     class Wallet
     {
-        private int moneyPerClick = 1;
+        private ulong moneyPerClick = 0;
         private ulong moneyPerSecond = 0;
         private ulong totalMoney = 0;
 
         public ulong MoneyPerSecond { get => moneyPerSecond; }
         public ulong TotalMoney { get => totalMoney; }
-        public int MoneyPerClick { get => moneyPerClick; }
+        public ulong MoneyPerClick { get => moneyPerClick; }
 
-        public void AddMoney(int money)
+        public Wallet(ulong moneyPerClick)
         {
-            totalMoney = totalMoney + Convert.ToUInt64(money);
+            this.moneyPerClick = moneyPerClick;
         }
 
-        public void SubstractMoney(int money)
+        public void AddMoney(ulong money)
         {
-            totalMoney = totalMoney - Convert.ToUInt64(money);
+            totalMoney = totalMoney + money;
+        }
+
+        public void SubstractMoney(ulong money)
+        {
+            totalMoney = totalMoney - money;
         }
 
         public void AddMPS(int money)
@@ -31,7 +36,7 @@ namespace CityClickerGame
             moneyPerSecond = moneyPerSecond + Convert.ToUInt64(money);
         }
 
-        public void IncreaseMoneyPerClick(int money)
+        public void IncreaseMoneyPerClick(ulong money)
         {
             moneyPerClick = moneyPerClick + money;
         }

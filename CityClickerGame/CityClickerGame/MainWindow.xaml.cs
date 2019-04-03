@@ -20,6 +20,8 @@ namespace CityClickerGame
     {
         Wallet wallet = new Wallet(1);
         CityObject[] buildings = new CityObject[16];
+        TextBox[] pricesTextBoxes = new TextBox[16];
+        TextBlock[] amountTextBlocks = new TextBlock[16];
         Factory factory = new Factory();
         DispatcherTimer timer = new DispatcherTimer();
 
@@ -31,6 +33,7 @@ namespace CityClickerGame
             factory.BuildObjectArray(buildings);
             InitializeComponent();
             factory.CreatePrices(buildings);
+            factory.BuildWindowArrays(pricesTextBoxes, amountTextBlocks);
         }
 
         private void ClockEvents(object sender, EventArgs e)
@@ -49,8 +52,20 @@ namespace CityClickerGame
         {
             Button button = sender as Button;
             string name = button.Name;
-            int id = Convert.ToInt32(string.Join("", name.ToCharArray().Where(Char.IsDigit)));
-            MessageBox.Show(Convert.ToString(id));
+            int id = Convert.ToInt32(string.Join("", name.ToCharArray().Where(Char.IsDigit))) - 1;
+            
+            if(buildings[id].Price <= wallet.TotalMoney)
+            {
+                wallet.SubstractMoney(buildings[id].Price);
+                buildings[id].IncreaseAmount();
+                wallet.AddMPS(buildings[id].Earnings);
+                pricesTextBoxes[id].Text = Convert.ToString(buildings[id].Price);
+                amountTextBlocks[id].Text = Convert.ToString(buildings[id].Amount);
+            }
+            else
+            {
+                MessageBox.Show("Not enough money!");
+            }
         }
     }
 }

@@ -31,9 +31,9 @@ namespace CityClickerGame
             totalMoney = totalMoney - money;
         }
 
-        public void AddMPS(int money)
+        public void AddMPS(ulong money)
         {
-            moneyPerSecond = moneyPerSecond + Convert.ToUInt64(money);
+            moneyPerSecond = moneyPerSecond + money;
         }
 
         public void IncreaseMoneyPerClick(ulong money)

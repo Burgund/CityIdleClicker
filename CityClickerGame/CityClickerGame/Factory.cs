@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace CityClickerGame
 {
@@ -51,6 +52,50 @@ namespace CityClickerGame
                     (window as MainWindow).priceOfObject14.Text = Convert.ToString(buildings[13].Price);
                     (window as MainWindow).priceOfObject15.Text = Convert.ToString(buildings[14].Price);
                     (window as MainWindow).priceOfObject16.Text = Convert.ToString(buildings[15].Price);
+                }
+            }
+        }
+
+        public void BuildWindowArrays(TextBox[] prices, TextBlock[] amount)
+        {
+            foreach (Window window in Application.Current.Windows)
+            {
+                if (window.GetType() == typeof(MainWindow))
+                {
+                    prices[0] = (window as MainWindow).priceOfObject1;
+                    prices[1] = (window as MainWindow).priceOfObject2;
+                    prices[2] = (window as MainWindow).priceOfObject3;
+                    prices[3] = (window as MainWindow).priceOfObject4;
+                    prices[4] = (window as MainWindow).priceOfObject5;
+                    prices[5] = (window as MainWindow).priceOfObject6;
+                    prices[6] = (window as MainWindow).priceOfObject7;
+                    prices[7] = (window as MainWindow).priceOfObject8;
+                    prices[8] = (window as MainWindow).priceOfObject9;
+                    prices[9] = (window as MainWindow).priceOfObject10;
+                    prices[10] = (window as MainWindow).priceOfObject11;
+                    prices[11] = (window as MainWindow).priceOfObject12;
+                    prices[12] = (window as MainWindow).priceOfObject13;
+                    prices[13] = (window as MainWindow).priceOfObject14;
+                    prices[14] = (window as MainWindow).priceOfObject15;
+                    prices[15] = (window as MainWindow).priceOfObject16;
+
+                    amount[0] = (window as MainWindow).object1Amount;
+                    amount[1] = (window as MainWindow).object2Amount;
+                    amount[2] = (window as MainWindow).object3Amount;
+                    amount[3] = (window as MainWindow).object4Amount;
+                    amount[4] = (window as MainWindow).object5Amount;
+                    amount[5] = (window as MainWindow).object6Amount;
+                    amount[6] = (window as MainWindow).object7Amount;
+                    amount[7] = (window as MainWindow).object8Amount;
+                    amount[8] = (window as MainWindow).object9Amount;
+                    amount[9] = (window as MainWindow).object10Amount;
+                    amount[10] = (window as MainWindow).object11Amount;
+                    amount[11] = (window as MainWindow).object12Amount;
+                    amount[12] = (window as MainWindow).object13Amount;
+                    amount[13] = (window as MainWindow).object14Amount;
+                    amount[14] = (window as MainWindow).object15Amount;
+                    amount[15] = (window as MainWindow).object16Amount;
+
                 }
             }
         }

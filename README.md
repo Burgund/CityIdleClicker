@@ -4,6 +4,7 @@ is a game of idle clickers familly (Cookie Clicker, Idle World etc.) created in 
 Currently in alpha version.</br>
 </br>
 TODO:</br>
+-Add music</br>
 -Add upgrades or/and technologies to purchase </br>
 -Add achivements</br>
 -Add a posibility to save/load the game</br>
@@ -12,3 +13,4 @@ TODO:</br>
 </br>
 Optional:</br>
 -Add random events</br>
+-Add buttons sound</br>

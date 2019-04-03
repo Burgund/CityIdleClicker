@@ -25,23 +25,32 @@ namespace CityClickerGame
 
         public MainWindow()
         {
-            timer.Tick += new EventHandler(clockEvents);
+            timer.Tick += new EventHandler(ClockEvents);
             timer.Interval = new TimeSpan(0, 0, 1);
             timer.Start();
             factory.BuildObjectArray(buildings);
             InitializeComponent();
+            factory.CreatePrices(buildings);
         }
 
-        private void clockEvents(object sender, EventArgs e)
+        private void ClockEvents(object sender, EventArgs e)
         {
             wallet.AddMoney(wallet.MoneyPerSecond);
             moneyAmount.Text = Convert.ToString(wallet.TotalMoney);
         }
 
-        private void clickArea_Click(object sender, RoutedEventArgs e)
+        private void ClickArea_Click(object sender, RoutedEventArgs e)
         {
             wallet.AddMoney(wallet.MoneyPerClick);
             moneyAmount.Text = Convert.ToString(wallet.TotalMoney);
+        }
+
+        private void BuyObject(object sender, RoutedEventArgs e)
+        {
+            Button button = sender as Button;
+            string name = button.Name;
+            int id = Convert.ToInt32(string.Join("", name.ToCharArray().Where(Char.IsDigit)));
+            MessageBox.Show(Convert.ToString(id));
         }
     }
 }

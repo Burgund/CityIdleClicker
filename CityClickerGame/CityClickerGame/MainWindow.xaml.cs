@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -34,6 +35,7 @@ namespace CityClickerGame
             InitializeComponent();
             factory.CreatePrices(buildings);
             factory.BuildWindowArrays(pricesTextBoxes, amountTextBlocks);
+            MusicPlays();
         }
 
         private void ClockEvents(object sender, EventArgs e)
@@ -66,6 +68,16 @@ namespace CityClickerGame
             {
                 MessageBox.Show("Not enough money!");
             }
+        }
+
+        private void MusicPlays()
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.Stream = Properties.Resources.Airglow___03___Electrifying_Landscape__online_audio_converter_com_;
+            player.PlayLooping();
+
+            //falling down is the same as being hit by a planet
+            //music plays
         }
     }
 }

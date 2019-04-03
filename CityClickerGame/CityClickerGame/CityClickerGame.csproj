@@ -125,5 +125,8 @@
   <ItemGroup>
     <Resource Include="Resources\money.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Airglow_-_03_-_Electrifying_Landscape %28online-audio-converter.com%29.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

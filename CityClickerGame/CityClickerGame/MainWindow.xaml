@@ -5,17 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CityClickerGame"
         mc:Ignorable="d"
-        Title="MainWindow" Height="650" Width="940">
+        Title="Synth City" Height="650" Width="1095">
     <Grid>
         <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0.117"/>
-                <GradientStop Color="#FF0021F3" Offset="1"/>
-                <GradientStop Color="#FF000D61" Offset="0.427"/>
-                <GradientStop Color="#FF000D61" Offset="0.69"/>
-            </LinearGradientBrush>
+            <ImageBrush ImageSource="Resources/background.jpg">
+                <ImageBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                        <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                        <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ImageBrush.RelativeTransform>
+            </ImageBrush>
         </Grid.Background>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="449*"/>
+            <ColumnDefinition Width="81*"/>
+        </Grid.ColumnDefinitions>
+
         <Button x:Name="clickArea" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="309" Height="530" FontSize="48" Click="ClickArea_Click" >
             <Image Source="Resources/clickAreaBackground.jpg"/>
         </Button>
@@ -92,49 +100,215 @@
 
         <TextBlock x:Name="object15Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
 
-        <Button x:Name="object4" HorizontalAlignment="Left" Margin="789,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object4" HorizontalAlignment="Left" Margin="789,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
             <Image Source="Resources/object4.jpg"/>
         </Button>
 
-        <TextBlock x:Name="object4Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="18"/>
+        <TextBlock x:Name="object4Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="18" Grid.ColumnSpan="2"/>
 
-        <Button x:Name="object8" HorizontalAlignment="Left" Margin="789,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object8" HorizontalAlignment="Left" Margin="789,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
             <Image Source="Resources/object8.jpg"/>
         </Button>
 
-        <TextBlock x:Name="object8Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object8Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19" Grid.ColumnSpan="2"/>
 
-        <Button x:Name="object12" HorizontalAlignment="Left" Margin="789,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object12" HorizontalAlignment="Left" Margin="789,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
             <Image Source="Resources/object12.jpg"/>
         </Button>
 
-        <TextBlock x:Name="object12Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object12Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19" Grid.ColumnSpan="2"/>
 
-        <Button x:Name="object16" HorizontalAlignment="Left" Margin="789,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject">
+        <Button x:Name="object16" HorizontalAlignment="Left" Margin="789,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject" Grid.ColumnSpan="2">
             <Image Source="Resources/object16.jpg"/>
         </Button>
 
-        <TextBlock x:Name="object16Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object16Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19" Grid.ColumnSpan="2"/>
 
         <Image x:Name="moneyContainer" HorizontalAlignment="Left" Height="64" Margin="10,545,0,0" VerticalAlignment="Top" Width="64" Source="Resources/money.jpg"/>
-        <TextBlock x:Name="moneyAmount" HorizontalAlignment="Left" Margin="79,565,0,0" TextWrapping="Wrap" Text="0" Height="30" Width="240" LineHeight="6" FontSize="30" VerticalAlignment="Top" FontFamily="Visitor TT1 BRK" FontWeight="Bold" Foreground="#FF1286B2"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="338,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center"/>
-        <TextBox x:Name="priceOfObject1" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="338,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject2" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="488,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject3" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="639,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject4" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="789,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject5" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="338,280,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject6" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="488,280,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject7" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="639,280,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject8" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="789,280,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject9" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="338,433,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject10" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="488,433,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject11" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="639,433,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject12" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="789,433,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject13" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="338,584,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject14" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="488,584,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject15" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="639,584,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
-        <TextBox x:Name="priceOfObject16" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="789,584,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" Background="{x:Null}" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="14" FontWeight="Bold" Foreground="#FF2BADC1"/>
+        <TextBlock x:Name="moneyAmount" HorizontalAlignment="Left" Margin="79,565,0,0" TextWrapping="Wrap" Text="0" Height="30" Width="240" LineHeight="6" FontSize="30" VerticalAlignment="Top" FontFamily="Visitor TT1 BRK" FontWeight="Bold" Background="#66FFFFFF">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF7F00D6" Offset="0"/>
+                    <GradientStop Color="#FF200036" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBox x:Name="priceOfObject1" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="338,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject2" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="488,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject3" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="639,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject4" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="789,128,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF" Grid.ColumnSpan="2">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject5" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="338,280,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject6" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="488,280,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject7" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="639,280,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject8" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="789,280,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF" Grid.ColumnSpan="2">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject9" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="338,433,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject10" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="488,433,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject11" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="639,433,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject12" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="789,433,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF" Grid.ColumnSpan="2">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject13" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="338,584,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject14" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="488,584,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject15" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="639,584,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="priceOfObject16" x:FieldModifier="public" HorizontalAlignment="Left" Height="23" Margin="789,584,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127" TextAlignment="Center" FontFamily="Visitor TT1 BRK" FontSize="16" FontWeight="Bold" Foreground="#FFEEE1FF" Grid.ColumnSpan="2">
+            <TextBox.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <Button x:Name="music_button" Content="MUSIC" HorizontalAlignment="Left" Margin="19,574,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="load_button" Content="LOAD GAME" HorizontalAlignment="Left" Margin="19,528,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="save_button" Content="SAVE GAME" HorizontalAlignment="Left" Margin="19,482,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="credits_button" Content="CREDITS" HorizontalAlignment="Left" Margin="19,436,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="technologies_button" Content="TECHNOLOGIES" HorizontalAlignment="Left" Margin="19,132,0,0" VerticalAlignment="Top" Width="126" Height="106" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="achivements_button" Content="ACHIVEMENTS" HorizontalAlignment="Left" Margin="19,10,0,0" VerticalAlignment="Top" Width="126" Height="106" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF390068" Offset="1"/>
+                    <GradientStop Color="#B29B20FF" Offset="0.037"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

@@ -25,17 +25,26 @@ namespace CityClickerGame
         TextBlock[] amountTextBlocks = new TextBlock[16];
         Factory factory = new Factory();
         DispatcherTimer timer = new DispatcherTimer();
+        SoundPlayer player = new SoundPlayer();
 
         public MainWindow()
         {
-            timer.Tick += new EventHandler(ClockEvents);
-            timer.Interval = new TimeSpan(0, 0, 1);
-            timer.Start();
-            factory.BuildObjectArray(buildings);
-            InitializeComponent();
-            factory.CreatePrices(buildings);
-            factory.BuildWindowArrays(pricesTextBoxes, amountTextBlocks);
-            MusicPlays();
+            try
+            {
+                timer.Tick += new EventHandler(ClockEvents);
+                timer.Interval = new TimeSpan(0, 0, 1);
+                timer.Start();
+                factory.BuildObjectArray(buildings);
+                InitializeComponent();
+                factory.CreatePrices(buildings);
+                factory.BuildWindowArrays(pricesTextBoxes, amountTextBlocks);
+                MusicPlays();
+            }
+            catch(Exception e)
+            {
+                System.Diagnostics.Debug.WriteLine("-----------------------------------------------------------------");
+                System.Diagnostics.Debug.WriteLine(e.Message);
+            }
         }
 
         private void ClockEvents(object sender, EventArgs e)
@@ -72,9 +81,16 @@ namespace CityClickerGame
 
         private void MusicPlays()
         {
-            SoundPlayer player = new SoundPlayer();
-            player.Stream = Properties.Resources.Airglow___03___Electrifying_Landscape__online_audio_converter_com_;
-            player.PlayLooping();
+            try
+            {
+                player.Stream = Properties.Resources.Airglow___03___Electrifying_Landscape__online_audio_converter_com_;
+                player.PlayLooping();
+            }
+            catch (Exception e)
+            {
+                System.Diagnostics.Debug.WriteLine("-----------------------------------------------------------------");
+                System.Diagnostics.Debug.WriteLine(e.Message);
+            }
 
             //falling down is the same as being hit by a planet
             //music plays

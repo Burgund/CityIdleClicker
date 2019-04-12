@@ -96,5 +96,35 @@ namespace CityClickerGame
             //falling down is the same as being hit by a planet
             //music plays
         }
+
+        private void achivements_button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+        }
+
+        private void technologies_button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+        }
+
+        private void credits_button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+        }
+
+        private void save_button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+        }
+
+        private void load_button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+        }
+
+        private void music_button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+        }
     }
 }

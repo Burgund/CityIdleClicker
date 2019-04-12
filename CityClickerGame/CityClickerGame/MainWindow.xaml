@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CityClickerGame"
         mc:Ignorable="d"
-        Title="Synth City" Height="650" Width="1095">
+        Title="SynthCity 1.0.0" Height="650" Width="1095">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="Resources/background.jpg">
@@ -261,7 +261,7 @@
                 </RadialGradientBrush>
             </TextBox.Background>
         </TextBox>
-        <Button x:Name="music_button" Content="MUSIC" HorizontalAlignment="Left" Margin="19,574,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+        <Button x:Name="music_button" Content="MUSIC" HorizontalAlignment="Left" Margin="19,574,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16" Click="music_button_Click">
             <Button.Background>
                 <RadialGradientBrush>
                     <GradientStop Color="#FF390068" Offset="1"/>
@@ -269,7 +269,7 @@
                 </RadialGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="load_button" Content="LOAD GAME" HorizontalAlignment="Left" Margin="19,528,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+        <Button x:Name="load_button" Content="LOAD GAME" HorizontalAlignment="Left" Margin="19,528,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16" Click="load_button_Click">
             <Button.Background>
                 <RadialGradientBrush>
                     <GradientStop Color="#FF390068" Offset="1"/>
@@ -277,7 +277,7 @@
                 </RadialGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="save_button" Content="SAVE GAME" HorizontalAlignment="Left" Margin="19,482,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+        <Button x:Name="save_button" Content="SAVE GAME" HorizontalAlignment="Left" Margin="19,482,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16" Click="save_button_Click">
             <Button.Background>
                 <RadialGradientBrush>
                     <GradientStop Color="#FF390068" Offset="1"/>
@@ -285,7 +285,7 @@
                 </RadialGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="credits_button" Content="CREDITS" HorizontalAlignment="Left" Margin="19,436,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+        <Button x:Name="credits_button" Content="CREDITS" HorizontalAlignment="Left" Margin="19,436,0,0" VerticalAlignment="Top" Width="126" Height="31" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16" Click="credits_button_Click">
             <Button.Background>
                 <RadialGradientBrush>
                     <GradientStop Color="#FF390068" Offset="1"/>
@@ -293,7 +293,7 @@
                 </RadialGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="technologies_button" Content="TECHNOLOGIES" HorizontalAlignment="Left" Margin="19,132,0,0" VerticalAlignment="Top" Width="126" Height="106" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+        <Button x:Name="technologies_button" Content="TECHNOLOGIES" HorizontalAlignment="Left" Margin="19,132,0,0" VerticalAlignment="Top" Width="126" Height="106" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16" Click="technologies_button_Click">
             <Button.Background>
                 <RadialGradientBrush>
                     <GradientStop Color="#FF390068" Offset="1"/>
@@ -301,7 +301,7 @@
                 </RadialGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="achivements_button" Content="ACHIVEMENTS" HorizontalAlignment="Left" Margin="19,10,0,0" VerticalAlignment="Top" Width="126" Height="106" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16">
+        <Button x:Name="achivements_button" Content="ACHIVEMENTS" HorizontalAlignment="Left" Margin="19,10,0,0" VerticalAlignment="Top" Width="126" Height="106" Grid.Column="1" Foreground="#FFEEE1FF" FontFamily="Visitor TT1 BRK" FontSize="16" Click="achivements_button_Click">
             <Button.Background>
                 <RadialGradientBrush>
                     <GradientStop Color="#FF390068" Offset="1"/>

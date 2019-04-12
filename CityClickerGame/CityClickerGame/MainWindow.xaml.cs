@@ -55,7 +55,7 @@ namespace CityClickerGame
 
         private void ClickArea_Click(object sender, RoutedEventArgs e)
         {
-            wallet.AddMoney(wallet.MoneyPerClick);
+            wallet.AddMoney(Convert.ToUInt64(wallet.MoneyPerClick));
             moneyAmount.Text = Convert.ToString(wallet.TotalMoney);
         }
 
@@ -72,6 +72,7 @@ namespace CityClickerGame
                 wallet.AddMPS(buildings[id].Earnings);
                 pricesTextBoxes[id].Text = Convert.ToString(buildings[id].Price);
                 amountTextBlocks[id].Text = Convert.ToString(buildings[id].Amount);
+                wallet.AddMoneyPerClick(buildings[id].AddMPC);
             }
             else
             {

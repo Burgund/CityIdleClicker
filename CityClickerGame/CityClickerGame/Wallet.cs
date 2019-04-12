@@ -8,13 +8,13 @@ namespace CityClickerGame
 {
     class Wallet
     {
-        private ulong moneyPerClick = 0;
+        private double moneyPerClick = 0;
         private ulong moneyPerSecond = 0;
         private ulong totalMoney = 0;
 
         public ulong MoneyPerSecond { get => moneyPerSecond; }
         public ulong TotalMoney { get => totalMoney; }
-        public ulong MoneyPerClick { get => moneyPerClick; }
+        public double MoneyPerClick { get => moneyPerClick; }
 
         public Wallet(ulong moneyPerClick)
         {
@@ -36,7 +36,7 @@ namespace CityClickerGame
             moneyPerSecond = moneyPerSecond + money;
         }
 
-        public void IncreaseMoneyPerClick(ulong money)
+        public void AddMoneyPerClick(double money)
         {
             moneyPerClick = moneyPerClick + money;
         }

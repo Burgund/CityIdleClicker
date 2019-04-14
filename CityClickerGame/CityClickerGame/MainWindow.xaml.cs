@@ -124,7 +124,16 @@ namespace CityClickerGame
 
         private void music_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+            if ((string)music_button.Content == "MUSIC")
+            {
+                player.Stop();
+                music_button.Content = "PLAY MUSIC";
+            }
+            else
+            {
+                player.PlayLooping();
+                music_button.Content = "MUSIC";
+            }
         }
     }
 }

@@ -109,7 +109,8 @@ namespace CityClickerGame
 
         private void credits_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+            Credits credits = new Credits();
+            credits.Show();
         }
 
         private void save_button_Click(object sender, RoutedEventArgs e)

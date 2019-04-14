@@ -1,0 +1,25 @@
+﻿<Window x:Class="CityClickerGame.Credits"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CityClickerGame"
+        mc:Ignorable="d"
+        Title="Credits" Height="686.777" Width="570.661">
+    <Window.Background>
+        <ImageBrush ImageSource="Resources/background.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="44,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="343" Width="474" FontSize="20" TextAlignment="Center" FontWeight="Bold" Background="#7FFFFFFF">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2D0042"/>
+                    <GradientStop Color="#FF9D00E6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground><Run Background="#33000000" Text="Lorem ipsum dolor sit amet, consectetur "/><LineBreak/><Run Background="#33000000" Text="adipiscing elit, sed do eiusmod tempor incididunt "/><LineBreak/><Run Background="#33000000" Text="ut labore et dolore magna aliqua. "/><LineBreak/><Run Background="#33000000" Text="Ut enim ad minim veniam, quis nostrud "/><LineBreak/><Run Background="#33000000" Text="exercitation ullamco laboris nisi ut "/><LineBreak/><Run Background="#33000000" Text="aliquip ex ea commodo consequat. "/><LineBreak/><Run Background="#33000000" Text="Duis aute irure dolor in reprehenderit "/><LineBreak/><Run Background="#33000000" Text="in voluptate velit esse cillum dolore eu "/><LineBreak/><Run Background="#33000000" Text="fugiat nulla pariatur. Excepteur "/><LineBreak/><Run Background="#33000000" Text="sint occaecat cupidatat non proident, "/><LineBreak/><Run Background="#33000000" Text="sunt in culpa qui officia deserunt mollit "/><LineBreak/><Run Background="#33000000" Text="anim id est laborum."/></TextBlock>
+
+    </Grid>
+</Window>

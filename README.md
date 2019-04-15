@@ -5,11 +5,9 @@ Currently in alpha version.</br>
 </br>
 TODO:</br>
 -Add upgrades or/and technologies to purchase </br>
--Stop/Play music</br>
 -Add achivements</br>
 -Add a posibility to save the game</br>
 -Add a posibility to load the game</br>
--Add credits</br>
 -New graphic design</br>
 -Make main city view (click area) depending on the Money Per Second value</br>
 </br>

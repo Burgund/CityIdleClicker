@@ -13,13 +13,12 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBlock HorizontalAlignment="Left" Margin="44,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="343" Width="474" FontSize="20" TextAlignment="Center" FontWeight="Bold" Background="#7FFFFFFF">
+        <TextBlock HorizontalAlignment="Left" Margin="24,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="#7FFFFFFF" FontSize="24" FontWeight="Bold" Height="596" Width="509" TextAlignment="Center">
             <TextBlock.Foreground>
-                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-                    <GradientStop Color="#FF2D0042"/>
-                    <GradientStop Color="#FF9D00E6" Offset="1"/>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3E005B" Offset="0"/>
+                    <GradientStop Color="#FF8C00CD" Offset="1"/>
                 </LinearGradientBrush>
-            </TextBlock.Foreground><Run Background="#33000000" Text="Lorem ipsum dolor sit amet, consectetur "/><LineBreak/><Run Background="#33000000" Text="adipiscing elit, sed do eiusmod tempor incididunt "/><LineBreak/><Run Background="#33000000" Text="ut labore et dolore magna aliqua. "/><LineBreak/><Run Background="#33000000" Text="Ut enim ad minim veniam, quis nostrud "/><LineBreak/><Run Background="#33000000" Text="exercitation ullamco laboris nisi ut "/><LineBreak/><Run Background="#33000000" Text="aliquip ex ea commodo consequat. "/><LineBreak/><Run Background="#33000000" Text="Duis aute irure dolor in reprehenderit "/><LineBreak/><Run Background="#33000000" Text="in voluptate velit esse cillum dolore eu "/><LineBreak/><Run Background="#33000000" Text="fugiat nulla pariatur. Excepteur "/><LineBreak/><Run Background="#33000000" Text="sint occaecat cupidatat non proident, "/><LineBreak/><Run Background="#33000000" Text="sunt in culpa qui officia deserunt mollit "/><LineBreak/><Run Background="#33000000" Text="anim id est laborum."/></TextBlock>
-
+            </TextBlock.Foreground><Run Text="Idea, "/><Run Text="concept and "/><Run Text="programming"/><Run Text=":"/><LineBreak/><Run Text="Maciej 'Burgund' Burchardt"/><LineBreak/><Run/><LineBreak/><Run Text="Grapic design:"/><LineBreak/><Run Text="Maciej 'Burgund' Burchardt"/><LineBreak/><Run Text="Monika Burchardt"/><LineBreak/><Run/><LineBreak/><Run Text="Music:"/><LineBreak/><Run Text="Electrifying Landscape"/><Run Text=" by Airglow"/><LineBreak/><Run/><LineBreak/><Run Text="Check out following links:"/><LineBreak/><Run Text="1) www.facebook.com/&lt;TODO&gt;"/><LineBreak/><Run Text="2) http://freemusicarchive.org"/><LineBreak/><Run Text="3) https://gamejolt.com/games/SynthCity/407852"/><LineBreak/><Run Text="4) https://github.com/Burgund/CityIdleClicker"/><LineBreak/><Run/></TextBlock>
     </Grid>
 </Window>

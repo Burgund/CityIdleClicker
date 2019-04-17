@@ -74,12 +74,19 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Achivements.cs" />
+    <Compile Include="Achivements.xaml.cs">
+      <DependentUpon>Achivements.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CityObject.cs" />
     <Compile Include="Credits.xaml.cs">
       <DependentUpon>Credits.xaml</DependentUpon>
     </Compile>
     <Compile Include="Factory.cs" />
     <Compile Include="Wallet.cs" />
+    <Page Include="Achivements.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Credits.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -171,6 +178,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="thumbnail.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\notavailable.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,7 +8,7 @@ using System.Windows;
 
 namespace CityClickerGame
 {
-    class Achivements
+    class Achivement
     {
         private string name;
         private bool isAchived;

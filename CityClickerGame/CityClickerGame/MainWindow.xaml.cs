@@ -99,7 +99,8 @@ namespace CityClickerGame
 
         private void achivements_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+            Achivements achivements = new Achivements();
+            achivements.Show();
         }
 
         private void technologies_button_Click(object sender, RoutedEventArgs e)

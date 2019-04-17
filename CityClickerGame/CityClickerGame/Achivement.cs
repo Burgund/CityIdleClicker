@@ -8,10 +8,10 @@ using System.Windows;
 
 namespace CityClickerGame
 {
-    class Achivement
+    public class Achivement
     {
         private string name;
-        private bool isAchived;
+        private bool isAchived = false;
         private string picture;
         private string condition;
 
@@ -19,6 +19,20 @@ namespace CityClickerGame
         public bool IsAchived { get => isAchived; set => isAchived = value; }
         public string Picture { get => picture; set => picture = value; }
         public string Condition { get => condition; set => condition = value; }
+
+        public Achivement(string name, string picture, string condition, bool isAchived)
+        {
+            this.name = name;
+            this.isAchived = isAchived;
+            this.picture = picture;
+            this.condition = condition;
+        }
+
+        public Achivement(string name, string condition)
+        {
+            this.name = name;
+            this.condition = condition;
+        }
 
         public void WhenAchived()
         {

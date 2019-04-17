@@ -14,14 +14,15 @@ using System.Windows.Shapes;
 
 namespace CityClickerGame
 {
-    /// <summary>
-    /// Logika interakcji dla klasy Achivements.xaml
-    /// </summary>
     public partial class Achivements : Window
     {
-        public Achivements()
+        Achivement[] achivements = new Achivement[28];
+
+        public Achivements(Achivement[] achivements)
         {
             InitializeComponent();
+
+            this.achivements = achivements;
         }
     }
 }

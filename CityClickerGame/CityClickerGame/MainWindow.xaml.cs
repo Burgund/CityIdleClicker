@@ -26,6 +26,7 @@ namespace CityClickerGame
         Factory factory = new Factory();
         DispatcherTimer timer = new DispatcherTimer();
         SoundPlayer player = new SoundPlayer();
+        Achivement[] achivementsArray = new Achivement[28];
 
         public MainWindow()
         {
@@ -35,6 +36,7 @@ namespace CityClickerGame
                 timer.Interval = new TimeSpan(0, 0, 1);
                 timer.Start();
                 factory.BuildObjectArray(buildings);
+                factory.BuildAchivementsArray(achivementsArray);
                 InitializeComponent();
                 factory.CreatePrices(buildings);
                 factory.BuildWindowArrays(pricesTextBoxes, amountTextBlocks);
@@ -99,13 +101,13 @@ namespace CityClickerGame
 
         private void achivements_button_Click(object sender, RoutedEventArgs e)
         {
-            Achivements achivements = new Achivements();
+            Achivements achivements = new Achivements(achivementsArray);
             achivements.Show();
         }
 
         private void technologies_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+            MessageBox.Show("Not available in SynthCity alpha 1.0.1");
         }
 
         private void credits_button_Click(object sender, RoutedEventArgs e)
@@ -116,12 +118,12 @@ namespace CityClickerGame
 
         private void save_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+            MessageBox.Show("Not available in SynthCity alpha 1.0.1");
         }
 
         private void load_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.0.0");
+            MessageBox.Show("Not available in SynthCity alpha 1.0.1");
         }
 
         private void music_button_Click(object sender, RoutedEventArgs e)

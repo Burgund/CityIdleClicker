@@ -10,6 +10,38 @@ namespace CityClickerGame
 {
     class Factory
     {
+        public void BuildAchivementsArray(Achivement[] achivements)
+        {
+            achivements[0] = new Achivement("", "");
+            achivements[1] = new Achivement("", "");
+            achivements[2] = new Achivement("", "");
+            achivements[3] = new Achivement("", "");
+            achivements[4] = new Achivement("", "");
+            achivements[5] = new Achivement("", "");
+            achivements[6] = new Achivement("", "");
+            achivements[7] = new Achivement("", "");
+            achivements[8] = new Achivement("", "");
+            achivements[9] = new Achivement("", "");
+            achivements[10] = new Achivement("", "");
+            achivements[11] = new Achivement("", "");
+            achivements[12] = new Achivement("", "");
+            achivements[13] = new Achivement("", "");
+            achivements[14] = new Achivement("", "");
+            achivements[15] = new Achivement("", "");
+            achivements[16] = new Achivement("", "");
+            achivements[17] = new Achivement("", "");
+            achivements[18] = new Achivement("", "");
+            achivements[19] = new Achivement("", "");
+            achivements[20] = new Achivement("", "");
+            achivements[21] = new Achivement("", "");
+            achivements[22] = new Achivement("", "");
+            achivements[23] = new Achivement("", "");
+            achivements[24] = new Achivement("", "");
+            achivements[25] = new Achivement("", "");
+            achivements[26] = new Achivement("", "");
+            achivements[27] = new Achivement("", "");
+        }
+
         public void BuildObjectArray(CityObject[] buildings)
         {
             buildings[0] = new CityObject(100, 1, 0.1);
@@ -95,7 +127,6 @@ namespace CityClickerGame
                     amount[13] = (window as MainWindow).object14Amount;
                     amount[14] = (window as MainWindow).object15Amount;
                     amount[15] = (window as MainWindow).object16Amount;
-
                 }
             }
         }

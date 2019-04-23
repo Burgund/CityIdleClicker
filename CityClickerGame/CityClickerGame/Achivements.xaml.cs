@@ -23,6 +23,110 @@ namespace CityClickerGame
             InitializeComponent();
 
             this.achivements = achivements;
+
+            foreach(Achivement x in achivements)
+            {
+                if(x.IsAchived)
+                {
+                    SetAchived(x.Id);
+                }
+            }
+        }
+
+        private void SecretTwentyTwoAchived(object sender, MouseEventArgs e)
+        {
+            ((MainWindow)this.Owner).CheckForAchivement(21);
+        }
+
+        public void SetAchived(int number)
+        {
+            switch (number)
+            {
+                case 1:
+                    this.achivement1.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 2:
+                    this.achivement2.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 3:
+                    this.achivement3.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 4:
+                    this.achivement4.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 5:
+                    this.achivement5.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 6:
+                    this.achivement6.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 7:
+                    this.achivement7.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 8:
+                    this.achivement8.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 9:
+                    this.achivement9.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 10:
+                    this.achivement10.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 11:
+                    this.achivement11.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 12:
+                    this.achivement12.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 13:
+                    this.achivement13.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 14:
+                    this.achivement14.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 15:
+                    this.achivement15.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 16:
+                    this.achivement16.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break; 
+                case 17:
+                    this.achivement17.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 18:
+                    this.achivement18.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 19:
+                    this.achivement19.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 20:
+                    this.achivement20.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 21:
+                    this.achivement21.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 22:
+                    this.achivement22.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 23:
+                    this.achivement23.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 24:
+                    this.achivement24.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 25:
+                    this.achivement25.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 26:
+                    this.achivement26.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 27:
+                    this.achivement27.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+                case 28:
+                    this.achivement28.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+                    break;
+            }
         }
     }
 }

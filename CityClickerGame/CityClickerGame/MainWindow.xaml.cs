@@ -53,6 +53,35 @@ namespace CityClickerGame
         {
             wallet.AddMoney(wallet.MoneyPerSecond);
             moneyAmount.Text = Convert.ToString(wallet.TotalMoney);
+            if (wallet.TotalMoney >= 10000)
+            {
+                CheckForAchivement(4);
+            }
+
+            if (wallet.TotalMoney >= 1000000)
+            {
+                CheckForAchivement(5);
+            }
+
+            if (wallet.TotalMoney >= 1000000000)
+            {
+                CheckForAchivement(6);
+            }
+
+            if (wallet.TotalMoney >= 1000000000000)
+            {
+                CheckForAchivement(7);
+            }
+
+            if (wallet.TotalMoney >= 1000000000000000)
+            {
+                CheckForAchivement(8);
+            }
+
+            if (wallet.TotalMoney >= 1000000000000000000)
+            {
+                CheckForAchivement(9);
+            }
         }
 
         private void ClickArea_Click(object sender, RoutedEventArgs e)
@@ -75,10 +104,59 @@ namespace CityClickerGame
                 pricesTextBoxes[id].Text = Convert.ToString(buildings[id].Price);
                 amountTextBlocks[id].Text = Convert.ToString(buildings[id].Amount);
                 wallet.AddMoneyPerClick(buildings[id].AddMPC);
+
+                CheckForAchivement(10);
+
+                if (id == 15)
+                {
+                    CheckForAchivement(11);
+                }
+
+                if (buildings[id].Amount >= 100)
+                {
+                    CheckForAchivement(12);
+                }
+
+                if (wallet.MoneyPerClick >= 10)
+                {
+                    CheckForAchivement(13);
+                }
+
+                if (wallet.MoneyPerClick >= 100)
+                {
+                    CheckForAchivement(14);
+                }
+
+                if (wallet.MoneyPerClick >= 1000)
+                {
+                    CheckForAchivement(15);
+                }
+
+                if (wallet.MoneyPerClick >= 1000000)
+                {
+                    CheckForAchivement(16);
+                }
+
+                if (wallet.MoneyPerSecond >= 100)
+                {
+                    CheckForAchivement(17);
+                }
+
+                if (wallet.MoneyPerSecond >= 9000)
+                {
+                    CheckForAchivement(18);
+                }
+
+                if (wallet.MoneyPerSecond >= 10000000)
+                {
+                    CheckForAchivement(19);
+                }
             }
             else
             {
                 MessageBox.Show("Not enough money!");
+
+                CheckForAchivement(20);
             }
         }
 
@@ -102,18 +180,23 @@ namespace CityClickerGame
         private void achivements_button_Click(object sender, RoutedEventArgs e)
         {
             Achivements achivements = new Achivements(achivementsArray);
+            achivements.Owner = this;
             achivements.Show();
+
+            CheckForAchivement(2);
         }
 
         private void technologies_button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Not available in SynthCity alpha 1.0.1");
+            CheckForAchivement(22);
         }
 
         private void credits_button_Click(object sender, RoutedEventArgs e)
         {
             Credits credits = new Credits();
             credits.Show();
+            CheckForAchivement(1);
         }
 
         private void save_button_Click(object sender, RoutedEventArgs e)
@@ -124,6 +207,7 @@ namespace CityClickerGame
         private void load_button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Not available in SynthCity alpha 1.0.1");
+            CheckForAchivement(3);
         }
 
         private void music_button_Click(object sender, RoutedEventArgs e)
@@ -132,11 +216,21 @@ namespace CityClickerGame
             {
                 player.Stop();
                 music_button.Content = "PLAY MUSIC";
+                CheckForAchivement(0);
             }
             else
             {
                 player.PlayLooping();
                 music_button.Content = "MUSIC";
+            }
+        }
+
+        public void CheckForAchivement(int x)
+        {
+            if (!achivementsArray[x].IsAchived)
+            {
+                achivementsArray[x].IsAchived = true;
+                achivementsArray[x].WhenAchived();
             }
         }
     }

@@ -12,34 +12,34 @@ namespace CityClickerGame
     {
         public void BuildAchivementsArray(Achivement[] achivements)
         {
-            achivements[0] = new Achivement("", "");
-            achivements[1] = new Achivement("", "");
-            achivements[2] = new Achivement("", "");
-            achivements[3] = new Achivement("", "");
-            achivements[4] = new Achivement("", "");
-            achivements[5] = new Achivement("", "");
-            achivements[6] = new Achivement("", "");
-            achivements[7] = new Achivement("", "");
-            achivements[8] = new Achivement("", "");
-            achivements[9] = new Achivement("", "");
-            achivements[10] = new Achivement("", "");
-            achivements[11] = new Achivement("", "");
-            achivements[12] = new Achivement("", "");
-            achivements[13] = new Achivement("", "");
-            achivements[14] = new Achivement("", "");
-            achivements[15] = new Achivement("", "");
-            achivements[16] = new Achivement("", "");
-            achivements[17] = new Achivement("", "");
-            achivements[18] = new Achivement("", "");
-            achivements[19] = new Achivement("", "");
-            achivements[20] = new Achivement("", "");
-            achivements[21] = new Achivement("", "");
-            achivements[22] = new Achivement("", "");
-            achivements[23] = new Achivement("", "");
-            achivements[24] = new Achivement("", "");
-            achivements[25] = new Achivement("", "");
-            achivements[26] = new Achivement("", "");
-            achivements[27] = new Achivement("", "");
+            achivements[0] = new Achivement("Focus", "Turn off music ", 1);
+            achivements[1] = new Achivement("Curiostity", "Open credits window", 2);
+            achivements[2] = new Achivement("Gon on!", "Open achivements window", 3);
+            achivements[3] = new Achivement("Louder!", "Load game", 4);
+            achivements[4] = new Achivement("Poor guy", "Collect 10000 (10 tousand)", 5);
+            achivements[5] = new Achivement("Your first car!", "Collect 1000000 (million)", 6);
+            achivements[6] = new Achivement("Cream of the crop", "Collect 1000000000 (milliard)", 7);
+            achivements[7] = new Achivement("Businessman", "Collect 1000000000000 (billion)", 8);
+            achivements[8] = new Achivement("Rockefeller, is it you?", "Collect 1000000000000000 (billiard)", 9);
+            achivements[9] = new Achivement("Golden Pepe apeared", "Collect 1000000000000000000 (Trillion)", 10);
+            achivements[10] = new Achivement("Wow!", "Build your first building", 11);
+            achivements[11] = new Achivement("Amazing!", "Build the most expensive building", 12);
+            achivements[12] = new Achivement("Stahp!", "Have at least 100 building of whichever kind of building", 13);
+            achivements[13] = new Achivement("A", "Have 10 GPC", 14);
+            achivements[14] = new Achivement("B", "Have 100 GPC", 15);
+            achivements[15] = new Achivement("C", "Have 1000 GPC", 16);
+            achivements[16] = new Achivement("D", "Have 1000000 GPC", 17);
+            achivements[17] = new Achivement("Newbie", "Have 100 GPS", 18);
+            achivements[18] = new Achivement("It's over 9000!!!11", "Have 9000 GPS", 19);
+            achivements[19] = new Achivement("Global Elite", "Have 10000000 GPS", 20);
+            achivements[20] = new Achivement("Motion defeated", "Try to buy something without enough money", 21);
+            achivements[21] = new Achivement("What are you doing?!", "Click this achivement", 22);
+            achivements[22] = new Achivement("Geek", "Open technology window", 23);
+            achivements[23] = new Achivement("<todo>", "<todo>", 24);
+            achivements[24] = new Achivement("<todo>", "<todo>", 25);
+            achivements[25] = new Achivement("<todo>", "<todo>", 26);
+            achivements[26] = new Achivement("<todo>", "<todo>", 27);
+            achivements[27] = new Achivement("<todo>", "<todo>", 28);
         }
 
         public void BuildObjectArray(CityObject[] buildings)

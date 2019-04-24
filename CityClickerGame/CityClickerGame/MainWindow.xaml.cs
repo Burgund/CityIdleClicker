@@ -188,7 +188,7 @@ namespace CityClickerGame
 
         private void technologies_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.0.1");
+            MessageBox.Show("Not available in SynthCity alpha 1.0.2");
             CheckForAchivement(22);
         }
 
@@ -201,12 +201,12 @@ namespace CityClickerGame
 
         private void save_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.0.1");
+            MessageBox.Show("Not available in SynthCity alpha 1.0.2");
         }
 
         private void load_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.0.1");
+            MessageBox.Show("Not available in SynthCity alpha 1.0.2");
             CheckForAchivement(3);
         }
 

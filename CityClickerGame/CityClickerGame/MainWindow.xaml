@@ -25,23 +25,23 @@
         </Grid.ColumnDefinitions>
 
         <Button x:Name="clickArea" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="309" Height="530" FontSize="48" Click="ClickArea_Click" >
-            <Image Source="Resources/clickAreaBackground.jpg"/>
+            <Image Source="Resources/clickAreaBackground.png"/>
         </Button>
 
         <Button x:Name="object1" HorizontalAlignment="Left" Margin="338,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
-            <Image Source="Resources/object1.jpg"/>
+            <Image Source="Resources/object1.png"/>
         </Button>
 
         <TextBlock x:Name="object1Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="18"/>
 
         <Button x:Name="object5" HorizontalAlignment="Left" Margin="338,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
-            <Image Source="Resources/object5.jpg"/>
+            <Image Source="Resources/object5.png"/>
         </Button>
 
         <TextBlock x:Name="object5Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
 
         <Button x:Name="object9"  HorizontalAlignment="Left" Margin="338,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
-            <Image Source="Resources/object9.jpg"/>
+            <Image Source="Resources/object9.png"/>
         </Button>
 
         <TextBlock x:Name="object9Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
@@ -53,7 +53,7 @@
         <TextBlock x:Name="object13Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
 
         <Button x:Name="object2" HorizontalAlignment="Left" Margin="488,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
-            <Image Source="Resources/object2.jpg"/>
+            <Image Source="Resources/object2.png"/>
         </Button>
 
         <TextBlock x:Name="object2Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="18"/>
@@ -65,31 +65,31 @@
         <TextBlock x:Name="object6Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
 
         <Button x:Name="object10" HorizontalAlignment="Left" Margin="488,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
-            <Image Source="Resources/object10.jpg"/>
+            <Image Source="Resources/object10.png"/>
         </Button>
 
         <TextBlock x:Name="object10Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
 
         <Button x:Name="object14" HorizontalAlignment="Left" Margin="488,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject">
-            <Image Source="Resources/object14.jpg"/>
+            <Image Source="Resources/object14.png"/>
         </Button>
 
         <TextBlock x:Name="object14Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
 
         <Button x:Name="object3" HorizontalAlignment="Left" Margin="639,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
-            <Image Source="Resources/object3.jpg"/>
+            <Image Source="Resources/object3.png"/>
         </Button>
 
         <TextBlock x:Name="object3Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="18"/>
 
         <Button x:Name="object7" HorizontalAlignment="Left" Margin="639,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
-            <Image Source="Resources/object7.jpg"/>
+            <Image Source="Resources/object7.png"/>
         </Button>
 
         <TextBlock x:Name="object7Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
 
         <Button x:Name="object11" HorizontalAlignment="Left" Margin="639,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
-            <Image Source="Resources/object11.jpg"/>
+            <Image Source="Resources/object11.png"/>
         </Button>
 
         <TextBlock x:Name="object11Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
@@ -101,19 +101,19 @@
         <TextBlock x:Name="object15Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
 
         <Button x:Name="object4" HorizontalAlignment="Left" Margin="789,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
-            <Image Source="Resources/object4.jpg"/>
+            <Image Source="Resources/object4.png"/>
         </Button>
 
         <TextBlock x:Name="object4Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="18" Grid.ColumnSpan="2"/>
 
         <Button x:Name="object8" HorizontalAlignment="Left" Margin="789,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
-            <Image Source="Resources/object8.jpg"/>
+            <Image Source="Resources/object8.png"/>
         </Button>
 
         <TextBlock x:Name="object8Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19" Grid.ColumnSpan="2"/>
 
         <Button x:Name="object12" HorizontalAlignment="Left" Margin="789,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
-            <Image Source="Resources/object12.jpg"/>
+            <Image Source="Resources/object12.png"/>
         </Button>
 
         <TextBlock x:Name="object12Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19" Grid.ColumnSpan="2"/>

@@ -133,27 +133,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\clickAreaBackground.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\object1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\object10.jpg" />
-    <Resource Include="Resources\object11.jpg" />
-    <Resource Include="Resources\object12.jpg" />
     <Resource Include="Resources\object13.jpg" />
-    <Resource Include="Resources\object14.jpg" />
     <Resource Include="Resources\object15.jpg" />
     <Resource Include="Resources\object16.jpg" />
-    <Resource Include="Resources\object2.jpg" />
-    <Resource Include="Resources\object3.jpg" />
-    <Resource Include="Resources\object4.jpg" />
-    <Resource Include="Resources\object5.jpg" />
     <Resource Include="Resources\object6.jpg" />
-    <Resource Include="Resources\object7.jpg" />
-    <Resource Include="Resources\object8.jpg" />
-    <Resource Include="Resources\object9.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\Airglow_-_03_-_Electrifying_Landscape %28online-audio-converter.com%29.wav" />
@@ -184,6 +167,45 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\available.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\clickAreaBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object14.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

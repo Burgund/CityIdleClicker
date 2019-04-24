@@ -24,7 +24,9 @@ namespace CityClickerGame
 
             this.achivements = achivements;
 
-            foreach(Achivement x in achivements)
+            this.achivement3.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+
+            foreach (Achivement x in achivements)
             {
                 if(x.IsAchived)
                 {
@@ -36,6 +38,9 @@ namespace CityClickerGame
         private void SecretTwentyTwoAchived(object sender, MouseEventArgs e)
         {
             ((MainWindow)this.Owner).CheckForAchivement(21);
+
+            this.achivement22.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
+            ((MainWindow)this.Owner).SetTwentyTwo();
         }
 
         public void SetAchived(int number)
@@ -47,9 +52,6 @@ namespace CityClickerGame
                     break;
                 case 2:
                     this.achivement2.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
-                    break;
-                case 3:
-                    this.achivement3.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
                     break;
                 case 4:
                     this.achivement4.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));

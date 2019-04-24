@@ -188,7 +188,10 @@ namespace CityClickerGame
 
         private void technologies_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.0.2");
+            Technologies technologies = new Technologies();
+            technologies.Owner = this;
+            technologies.Show();
+
             CheckForAchivement(22);
         }
 
@@ -232,6 +235,11 @@ namespace CityClickerGame
                 achivementsArray[x].IsAchived = true;
                 achivementsArray[x].WhenAchived();
             }
+        }
+
+        public void SetTwentyTwo()
+        {
+            achivementsArray[21].IsAchived = true;
         }
     }
 }

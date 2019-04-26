@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CityClickerGame
 {
-    class Technology
+    public class Technology
     {
         private int id;
         private bool isInvented = false;

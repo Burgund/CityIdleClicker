@@ -7,37 +7,265 @@
         mc:Ignorable="d"
         Title="Technologies" Height="505.784" Width="843.389">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="69*"/>
+            <ColumnDefinition Width="98*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush ImageSource="Resources/background.jpg"/>
         </Grid.Background>
         <Image x:Name="technology1" HorizontalAlignment="Left" Height="100" Margin="11,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Electricity [+1% PPS]"/>
         <Image x:Name="technology2" HorizontalAlignment="Left" Height="100" Margin="129,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Railroad [Unlocks railstations]"/>
-        <Image x:Name="technology3" HorizontalAlignment="Left" Height="100" Margin="246,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Electronics [Unlocks energy lines]"/>
-        <Image x:Name="technology4" HorizontalAlignment="Left" Height="100" Margin="364,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Atomic theory [+2% PPS]"/>
-        <Image x:Name="technology5" HorizontalAlignment="Left" Height="100" Margin="482,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Computers [+2% PPS and +2% PPC]"/>
-        <Image x:Name="technology6" HorizontalAlignment="Left" Height="100" Margin="599,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Ecology [+3% PPC]"/>
-        <Image x:Name="technology7" HorizontalAlignment="Left" Height="100" Margin="716,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Nuclear Fission [Unlocks Nuclear Power Plant]"/>
+        <Image x:Name="technology3" HorizontalAlignment="Left" Height="100" Margin="246,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Electronics [Unlocks energy lines]" Grid.ColumnSpan="2"/>
+        <Image x:Name="technology4" HorizontalAlignment="Left" Height="100" Margin="19.302,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Atomic theory [+2% PPS]" Grid.Column="1"/>
+        <Image x:Name="technology5" HorizontalAlignment="Left" Height="100" Margin="137.302,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Computers [+2% PPS and +2% PPC]" Grid.Column="1"/>
+        <Image x:Name="technology6" HorizontalAlignment="Left" Height="100" Margin="254.302,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Ecology [+3% PPC]" Grid.Column="1"/>
+        <Image x:Name="technology7" HorizontalAlignment="Left" Height="100" Margin="371.302,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Nuclear Fission [Unlocks Nuclear Power Plant]" Grid.Column="1"/>
         <Image x:Name="technology8" HorizontalAlignment="Left" Height="100" Margin="11,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Lasers [+3% PPC]"/>
         <Image x:Name="technology9" HorizontalAlignment="Left" Height="100" Margin="129,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Robotics [+5% PPC]"/>
-        <Image x:Name="technology10" HorizontalAlignment="Left" Height="100" Margin="246,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Satelites [Unlocks Space Port]"/>
-        <Image x:Name="technology11" HorizontalAlignment="Left" Height="100" Margin="364,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="The Internet [+5% PPC and +2% PPS]"/>
-        <Image x:Name="technology12" HorizontalAlignment="Left" Height="100" Margin="482,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Nuclear Fusion [Nuclear Power Plants are twice as effective]"/>
-        <Image x:Name="technology13" HorizontalAlignment="Left" Height="100" Margin="599,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Graphen [+5% PPC and +5% PPS]"/>
-        <Image x:Name="technology14" HorizontalAlignment="Left" Height="100" Margin="716,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Autonomus System [Trains and Maglevs are +50% more effective]"/>
+        <Image x:Name="technology10" HorizontalAlignment="Left" Height="100" Margin="246,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Satelites [Unlocks Space Port]" Grid.ColumnSpan="2"/>
+        <Image x:Name="technology11" HorizontalAlignment="Left" Height="100" Margin="19.302,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="The Internet [+5% PPC and +2% PPS]" Grid.Column="1"/>
+        <Image x:Name="technology12" HorizontalAlignment="Left" Height="100" Margin="137.302,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Nuclear Fusion [Nuclear Power Plants are twice as effective]" Grid.Column="1"/>
+        <Image x:Name="technology13" HorizontalAlignment="Left" Height="100" Margin="254.302,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Graphen [+5% PPC and +5% PPS]" Grid.Column="1"/>
+        <Image x:Name="technology14" HorizontalAlignment="Left" Height="100" Margin="371.302,126,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Autonomus System [Trains and Maglevs are +50% more effective]" Grid.Column="1"/>
         <Image x:Name="technology15" HorizontalAlignment="Left" Height="100" Margin="11,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Orbital Networks [Space Ports are +75% more effective]"/>
         <Image x:Name="technology16" HorizontalAlignment="Left" Height="100" Margin="129,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Nanotechnology [+5% PPC and +5% PPS]"/>
-        <Image x:Name="technology17" HorizontalAlignment="Left" Height="100" Margin="246,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Artifical Inteligence [+6% PPS]"/>
-        <Image x:Name="technology18" HorizontalAlignment="Left" Height="100" Margin="364,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Field Theory [+6% PPC]"/>
-        <Image x:Name="technology19" HorizontalAlignment="Left" Height="100" Margin="482,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Mechatronics [+5% PPC and +5% PPS]"/>
-        <Image x:Name="technology20" HorizontalAlignment="Left" Height="100" Margin="599,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Maglev Train [+10% PPC]"/>
-        <Image x:Name="technology21" HorizontalAlignment="Left" Height="100" Margin="716,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Vertical Bio-farming [+10% PPC and +10% PPS but may cause overpopulation! (Warning! You CANT undo this)]"/>
+        <Image x:Name="technology17" HorizontalAlignment="Left" Height="100" Margin="246,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Artifical Inteligence [+6% PPS]" Grid.ColumnSpan="2"/>
+        <Image x:Name="technology18" HorizontalAlignment="Left" Height="100" Margin="19.302,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Field Theory [+6% PPC]" Grid.Column="1"/>
+        <Image x:Name="technology19" HorizontalAlignment="Left" Height="100" Margin="137.302,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Mechatronics [+5% PPC and +5% PPS]" Grid.Column="1"/>
+        <Image x:Name="technology20" HorizontalAlignment="Left" Height="100" Margin="254.302,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Maglev Train [+10% PPC]" Grid.Column="1"/>
+        <Image x:Name="technology21" HorizontalAlignment="Left" Height="100" Margin="371.302,241,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Vertical Bio-farming [+10% PPC and +10% PPS but may cause overpopulation! (Warning! You CANT undo this)]" Grid.Column="1"/>
         <Image x:Name="technology22" HorizontalAlignment="Left" Height="100" Margin="11,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Bioengineering [Bioengineering is always risky... What would happend? (Warning! You CANT undo this)]"/>
         <Image x:Name="technology23" HorizontalAlignment="Left" Height="100" Margin="129,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Bio-Metallurgy [+20% PPC]"/>
-        <Image x:Name="technology24" HorizontalAlignment="Left" Height="100" Margin="246,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Swarm Inteligence [+20% PPS]"/>
-        <Image x:Name="technology25" HorizontalAlignment="Left" Height="100" Margin="364,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Hyper Computing [Protects you from devastating events]"/>
-        <Image x:Name="technology26" HorizontalAlignment="Left" Height="100" Margin="482,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Exotic Materials [Unlocks second most expensive building]"/>
-        <Image x:Name="technology27" HorizontalAlignment="Left" Height="100" Margin="599,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Planet Engineering [Unlocks the most expensive building]"/>
-        <Image x:Name="technology28" HorizontalAlignment="Left" Height="100" Margin="716,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Neural Uploading [+100% PPC]"/>
+        <Image x:Name="technology24" HorizontalAlignment="Left" Height="100" Margin="246,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Swarm Inteligence [+20% PPS]" Grid.ColumnSpan="2"/>
+        <Image x:Name="technology25" HorizontalAlignment="Left" Height="100" Margin="19.302,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Hyper Computing [Protects you from devastating events]" Grid.Column="1"/>
+        <Image x:Name="technology26" HorizontalAlignment="Left" Height="100" Margin="137.302,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Exotic Materials [Unlocks second most expensive building]" Grid.Column="1"/>
+        <Image x:Name="technology27" HorizontalAlignment="Left" Height="100" Margin="254.302,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Planet Engineering [Unlocks the most expensive building]" Grid.Column="1"/>
+        <Image x:Name="technology28" HorizontalAlignment="Left" Height="100" Margin="371.302,357,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Neural Uploading [+100% PPC]" Grid.Column="1"/>
+        <TextBlock x:Name="techPrice1" HorizontalAlignment="Left" Margin="11,96,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice2" HorizontalAlignment="Left" Margin="129,96,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice3" HorizontalAlignment="Left" Margin="246,96,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.ColumnSpan="2">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice4" HorizontalAlignment="Left" Margin="19,96,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice5" HorizontalAlignment="Left" Margin="137,96,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice6" HorizontalAlignment="Left" Margin="254,96,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice7" HorizontalAlignment="Left" Margin="371,96,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice8" HorizontalAlignment="Left" Margin="11,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice9" HorizontalAlignment="Left" Margin="129,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice10" HorizontalAlignment="Left" Margin="246,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.ColumnSpan="2">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice11" HorizontalAlignment="Left" Margin="19,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice12" HorizontalAlignment="Left" Margin="137,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice13" HorizontalAlignment="Left" Margin="254,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice14" HorizontalAlignment="Left" Margin="371,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice15" HorizontalAlignment="Left" Margin="11,325,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice16" HorizontalAlignment="Left" Margin="129,325,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice17" HorizontalAlignment="Left" Margin="246,325,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.ColumnSpan="2">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice18" HorizontalAlignment="Left" Margin="19,325,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice19" HorizontalAlignment="Left" Margin="137,325,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice20" HorizontalAlignment="Left" Margin="254,325,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice21" HorizontalAlignment="Left" Margin="371,325,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice22" HorizontalAlignment="Left" Margin="11,441,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice23" HorizontalAlignment="Left" Margin="129,441,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice24" HorizontalAlignment="Left" Margin="246,441,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.ColumnSpan="2">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice25" HorizontalAlignment="Left" Margin="19,441,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice26" HorizontalAlignment="Left" Margin="137,441,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice27" HorizontalAlignment="Left" Margin="254,441,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techPrice28" HorizontalAlignment="Left" Margin="371,441,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="100" TextAlignment="Center" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" Height="16" FontSize="14" Grid.Column="1">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF170B23" Offset="0"/>
+                    <GradientStop Color="#FF904AD6" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
     </Grid>
 </Window>

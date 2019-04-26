@@ -27,7 +27,7 @@ namespace CityClickerGame
         DispatcherTimer timer = new DispatcherTimer();
         SoundPlayer player = new SoundPlayer();
         Achivement[] achivementsArray = new Achivement[28];
-        Technology[] technologies = new Technology[28];
+        Technology[] technologiesArray = new Technology[28];
 
         public MainWindow()
         {
@@ -41,7 +41,7 @@ namespace CityClickerGame
                 InitializeComponent();
                 factory.CreatePrices(buildings);
                 factory.BuildWindowArrays(pricesTextBoxes, amountTextBlocks);
-                factory.BuildTechnologiesArray(technologies);
+                factory.BuildTechnologiesArray(technologiesArray);
                 MusicPlays();
             }
             catch(Exception e)
@@ -190,7 +190,7 @@ namespace CityClickerGame
 
         private void technologies_button_Click(object sender, RoutedEventArgs e)
         {
-            Technologies technologies = new Technologies();
+            Technologies technologies = new Technologies(technologiesArray);
             technologies.Owner = this;
             technologies.Show();
 

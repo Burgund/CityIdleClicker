@@ -10,6 +10,38 @@ namespace CityClickerGame
 {
     class Factory
     {
+        public void BuildTechnologiesArray(Technology[] technologies)
+        {
+            technologies[0] = new Technology("Electricity", "+1% PPS", 1);
+            technologies[1] = new Technology("Railroad", "Unlocks railstations", 2);
+            technologies[2] = new Technology("Electronics", "Unlocks energy lines ", 3);
+            technologies[3] = new Technology("Atomic theory", "+2% PPS", 4);
+            technologies[4] = new Technology("Computers", "+2% PPS and +2% PPC", 5);
+            technologies[5] = new Technology("Ecology", "+3% PPC", 6);
+            technologies[6] = new Technology("Nuclear Fission", "Unlocks Nuclear Power Plant", 7);
+            technologies[7] = new Technology("Lasers", "+3% PPC", 8);
+            technologies[8] = new Technology("Robotics", "+5% PPC", 9);
+            technologies[9] = new Technology("Satelites", "Unlocks Space Port", 10);
+            technologies[10] = new Technology("The Internet", "+5% PPC and +2% PPS", 11);
+            technologies[11] = new Technology("Nuclear Fusion", "Nuclear Power Plants are twice as effective", 12);
+            technologies[12] = new Technology("Graphen", "+5% PPC and +5% PPS", 13);
+            technologies[13] = new Technology("Autonomus System", "Trains and Maglevs are +50% more effective", 14);
+            technologies[14] = new Technology("Orbital Networks", "Space Ports are +75% more effective", 15);
+            technologies[15] = new Technology("Nanotechnology", "+5% PPC and +5% PPS", 16);
+            technologies[16] = new Technology("Artifical Inteligence", "+6% PPS", 17);
+            technologies[17] = new Technology("Field Theory", "+6% PPC", 18);
+            technologies[18] = new Technology("Mechatronics", "+5% PPC and +5% PPS", 19);
+            technologies[19] = new Technology("Maglev Train", "+10% PPC", 20);
+            technologies[20] = new Technology("Vertical Bio-farming", "+10% PPC and +10% PPS but may cause overpopulation! [Warning! You CANT undo this]", 21);
+            technologies[21] = new Technology("Bioengineering", "Bioengineering is always risky... What would happend? [Warning! You CANT undo this]", 22);
+            technologies[22] = new Technology("Bio-Metallurgy", "+20% PPC", 23);
+            technologies[23] = new Technology("Swarm Inteligence", "+20% PPS", 24);
+            technologies[24] = new Technology("Hyper Computing", "Protects you from devastating events", 25);
+            technologies[25] = new Technology("Exotic Materials", "Unlocks second most expensive building", 26);
+            technologies[26] = new Technology("Planet Engineering", "Unlocks the most expensive building", 27);
+            technologies[27] = new Technology("Neural Uploading", "+100% PPC", 28);
+        }
+
         public void BuildAchivementsArray(Achivement[] achivements)
         {
             achivements[0] = new Achivement("Focus", "Turn off music ", 1);
@@ -25,13 +57,13 @@ namespace CityClickerGame
             achivements[10] = new Achivement("Wow!", "Build your first building", 11);
             achivements[11] = new Achivement("Amazing!", "Build the most expensive building", 12);
             achivements[12] = new Achivement("Stahp!", "Have at least 100 building of whichever kind of building", 13);
-            achivements[13] = new Achivement("A", "Have 10 GPC", 14);
-            achivements[14] = new Achivement("B", "Have 100 GPC", 15);
-            achivements[15] = new Achivement("C", "Have 1000 GPC", 16);
-            achivements[16] = new Achivement("D", "Have 1000000 GPC", 17);
-            achivements[17] = new Achivement("Newbie", "Have 100 GPS", 18);
-            achivements[18] = new Achivement("It's over 9000!!!11", "Have 9000 GPS", 19);
-            achivements[19] = new Achivement("Global Elite", "Have 10000000 GPS", 20);
+            achivements[13] = new Achivement("A", "Have 10 PPC", 14);
+            achivements[14] = new Achivement("B", "Have 100 PPC", 15);
+            achivements[15] = new Achivement("C", "Have 1000 PPC", 16);
+            achivements[16] = new Achivement("D", "Have 1000000 PPC", 17);
+            achivements[17] = new Achivement("Newbie", "Have 100 PPS", 18);
+            achivements[18] = new Achivement("It's over 9000!!!11", "Have 9000 PPS", 19);
+            achivements[19] = new Achivement("Global Elite", "Have 10000000 PPS", 20);
             achivements[20] = new Achivement("Motion defeated", "Try to buy something without enough money", 21);
             achivements[21] = new Achivement("What are you doing?!", "Click this achivement", 22);
             achivements[22] = new Achivement("Geek", "Open technology window", 23);

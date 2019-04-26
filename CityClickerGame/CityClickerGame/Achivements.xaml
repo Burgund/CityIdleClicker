@@ -33,11 +33,11 @@
         <Image x:Name="achivement21" HorizontalAlignment="Left" Height="100" Margin="715,239,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="Try to buy something without enough money"/>
         <Image x:Name="achivement22" HorizontalAlignment="Left" Height="100" Margin="10,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="Click this achivement" MouseDown="SecretTwentyTwoAchived"/>
         <Image x:Name="achivement23" HorizontalAlignment="Left" Height="100" Margin="128,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="Open technology window"/>
-        <Image x:Name="achivement24" HorizontalAlignment="Left" Height="100" Margin="245,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="[todo]"/>
-        <Image x:Name="achivement25" HorizontalAlignment="Left" Height="100" Margin="363,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="[todo]"/>
-        <Image x:Name="achivement26" HorizontalAlignment="Left" Height="100" Margin="481,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="[todo]"/>
-        <Image x:Name="achivement27" HorizontalAlignment="Left" Height="100" Margin="598,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="[todo]"/>
-        <Image x:Name="achivement28" HorizontalAlignment="Left" Height="100" Margin="715,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="[todo]"/>
+        <Image x:Name="achivement24" HorizontalAlignment="Left" Height="100" Margin="245,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="Invent Ecology"/>
+        <Image x:Name="achivement25" HorizontalAlignment="Left" Height="100" Margin="363,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="Invent Railroads and Maglev Train"/>
+        <Image x:Name="achivement26" HorizontalAlignment="Left" Height="100" Margin="481,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="Invent Nuclear Fission, Fusion and Atomic Theory"/>
+        <Image x:Name="achivement27" HorizontalAlignment="Left" Height="100" Margin="598,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="Invent Satelites, Orbital Networks and Planet Engineering"/>
+        <Image x:Name="achivement28" HorizontalAlignment="Left" Height="100" Margin="715,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="Invite Computers, Robotics, AI, Bioengineering and Neural Uploading"/>
 
     </Grid>
 </Window>

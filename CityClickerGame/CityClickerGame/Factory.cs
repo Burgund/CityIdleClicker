@@ -35,11 +35,11 @@ namespace CityClickerGame
             achivements[20] = new Achivement("Motion defeated", "Try to buy something without enough money", 21);
             achivements[21] = new Achivement("What are you doing?!", "Click this achivement", 22);
             achivements[22] = new Achivement("Geek", "Open technology window", 23);
-            achivements[23] = new Achivement("<todo>", "<todo>", 24);
-            achivements[24] = new Achivement("<todo>", "<todo>", 25);
-            achivements[25] = new Achivement("<todo>", "<todo>", 26);
-            achivements[26] = new Achivement("<todo>", "<todo>", 27);
-            achivements[27] = new Achivement("<todo>", "<todo>", 28);
+            achivements[23] = new Achivement("Ecologist", "Invent Ecology", 24);
+            achivements[24] = new Achivement("Wooosh", "Invent Railroads and Maglev Train", 25);
+            achivements[25] = new Achivement("DEFCON 1", "Invent Nuclear Fission, Fusion and Atomic Theory", 26);
+            achivements[26] = new Achivement("Sky is the limit", "Invent Satelites, Orbital Networks and Planet Engineering", 27);
+            achivements[27] = new Achivement("Cyborg", "Invite Computers, Robotics, AI, Bioengineering and Neural Uploading", 28);
         }
 
         public void BuildObjectArray(CityObject[] buildings)

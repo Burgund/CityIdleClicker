@@ -27,6 +27,7 @@ namespace CityClickerGame
         DispatcherTimer timer = new DispatcherTimer();
         SoundPlayer player = new SoundPlayer();
         Achivement[] achivementsArray = new Achivement[28];
+        Technology[] technologies = new Technology[28];
 
         public MainWindow()
         {
@@ -40,6 +41,7 @@ namespace CityClickerGame
                 InitializeComponent();
                 factory.CreatePrices(buildings);
                 factory.BuildWindowArrays(pricesTextBoxes, amountTextBlocks);
+                factory.BuildTechnologiesArray(technologies);
                 MusicPlays();
             }
             catch(Exception e)

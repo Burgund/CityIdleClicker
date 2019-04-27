@@ -58,142 +58,142 @@ namespace CityClickerGame
             this.techPrice28.Text = Convert.ToString(technologies[27].Price);
         }
 
-        private void InventElectricity()
+        private void InventElectricity(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventRailroad()
+        private void InventRailroad(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventElectronics()
+        private void InventElectronics(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventAtomicTheory()
+        private void InventAtomicTheory(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventComputers()
+        private void InventComputers(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventEcology()
+        private void InventEcology(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventNuclearFission()
+        private void InventNuclearFission(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventLasers()
+        private void InventLasers(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventRobotics()
+        private void InventRobotics(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventSatelites()
+        private void InventSatelites(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventTheInternet()
+        private void InventTheInternet(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventNuclearFusion()
+        private void InventNuclearFusion(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventGraphen()
+        private void InventGraphen(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventAutonomusSystem()
+        private void InventAutonomusSystem(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventOrbitalNetworks()
+        private void InventOrbitalNetworks(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventNanotechnology()
+        private void InventNanotechnology(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventArtificalInteligence()
+        private void InventArtificalInteligence(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventFieldTheory()
+        private void InventFieldTheory(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventMechatronics()
+        private void InventMechatronics(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventMaglevTrain()
+        private void InventMaglevTrain(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventVerticalBiofarming()
+        private void InventVerticalBiofarming(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventBioengineering()
+        private void InventBioengineering(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventBioMetallurgy()
+        private void InventBioMetallurgy(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventSwarmInteligence()
+        private void InventSwarmInteligence(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventHyperComputing()
+        private void InventHyperComputing(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventExoticMaterials()
+        private void InventExoticMaterials(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventPlanetEngineering()
+        private void InventPlanetEngineering(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void InventNeuralUploading()
+        private void InventNeuralUploading(object sender, MouseEventArgs e)
         {
 
         }

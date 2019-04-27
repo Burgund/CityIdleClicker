@@ -13,6 +13,7 @@ namespace CityClickerGame
         private int amount = 0;
         private ulong earnings = 0;
         private double addMPC = 0;
+        private double multiplier = 1;
 
         public CityObject(ulong price, ulong earnings, double mpc)
         {
@@ -40,6 +41,16 @@ namespace CityClickerGame
             }
 
             amount += 1;
+        }
+
+        public void IncreaseMultiplier(double multiplier)
+        {
+            this.multiplier += multiplier;
+        }
+
+        public ulong GetRealEarnings()
+        {
+            return Convert.ToUInt64((double)earnings * multiplier);
         }
     }
 }

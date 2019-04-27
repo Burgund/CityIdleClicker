@@ -23,10 +23,10 @@ namespace CityClickerGame
             technologies[8] = new Technology("Robotics", "+5% PPC", 9, 500000);
             technologies[9] = new Technology("Satelites", "Unlocks Space Port", 10, 1000000);
             technologies[10] = new Technology("The Internet", "+5% PPC and +2% PPS", 11, 2000000);
-            technologies[11] = new Technology("Nuclear Fusion", "Nuclear Power Plants are twice as effective", 12, 5000000);
+            technologies[11] = new Technology("Nuclear Fusion", "New Nuclear Power Plants are twice as effective", 12, 5000000);
             technologies[12] = new Technology("Graphen", "+5% PPC and +5% PPS", 13, 10000000);
-            technologies[13] = new Technology("Autonomus System", "Trains and Maglevs are +50% more effective", 14, 20000000);
-            technologies[14] = new Technology("Orbital Networks", "Space Ports are +75% more effective", 15, 50000000);
+            technologies[13] = new Technology("Autonomus System", "New Trains and Maglevs are twice as effective", 14, 20000000);
+            technologies[14] = new Technology("Orbital Networks", "New Space Ports are twice as effective", 15, 50000000);
             technologies[15] = new Technology("Nanotechnology", "+5% PPC and +5% PPS", 16, 100000000);
             technologies[16] = new Technology("Artifical Inteligence", "+6% PPS", 17, 200000000);
             technologies[17] = new Technology("Field Theory", "+6% PPC", 18, 500000000);

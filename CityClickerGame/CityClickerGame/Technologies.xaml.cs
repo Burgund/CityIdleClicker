@@ -60,142 +60,242 @@ namespace CityClickerGame
 
         private void InventElectricity(object sender, MouseEventArgs e)
         {
+            if(CheckForAvability(0))
+            {
 
+            }
         }
 
         private void InventRailroad(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(1))
+            {
 
+            }
         }
 
         private void InventElectronics(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(2))
+            {
 
+            }
         }
 
         private void InventAtomicTheory(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(3))
+            {
 
+            }
         }
 
         private void InventComputers(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(4))
+            {
 
+            }
         }
 
         private void InventEcology(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(5))
+            {
 
+            }
         }
 
         private void InventNuclearFission(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(6))
+            {
 
+            }
         }
 
         private void InventLasers(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(7))
+            {
 
+            }
         }
 
         private void InventRobotics(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(8))
+            {
 
+            }
         }
 
         private void InventSatelites(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(9))
+            {
 
+            }
         }
 
         private void InventTheInternet(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(10))
+            {
 
+            }
         }
 
         private void InventNuclearFusion(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(11))
+            {
 
+            }
         }
 
         private void InventGraphen(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(12))
+            {
 
+            }
         }
 
         private void InventAutonomusSystem(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(13))
+            {
 
+            }
         }
 
         private void InventOrbitalNetworks(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(14))
+            {
 
+            }
         }
 
         private void InventNanotechnology(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(15))
+            {
 
+            }
         }
 
         private void InventArtificalInteligence(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(16))
+            {
 
+            }
         }
 
         private void InventFieldTheory(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(17))
+            {
 
+            }
         }
 
         private void InventMechatronics(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(18))
+            {
 
+            }
         }
 
         private void InventMaglevTrain(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(19))
+            {
 
+            }
         }
 
         private void InventVerticalBiofarming(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(20))
+            {
 
+            }
         }
 
         private void InventBioengineering(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(21))
+            {
 
+            }
         }
 
         private void InventBioMetallurgy(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(22))
+            {
 
+            }
         }
 
         private void InventSwarmInteligence(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(23))
+            {
 
+            }
         }
 
         private void InventHyperComputing(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(24))
+            {
 
+            }
         }
 
         private void InventExoticMaterials(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(25))
+            {
 
+            }
         }
 
         private void InventPlanetEngineering(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(26))
+            {
 
+            }
         }
 
         private void InventNeuralUploading(object sender, MouseEventArgs e)
         {
+            if (CheckForAvability(27))
+            {
 
+            }
+        }
+
+        private bool CheckForAvability(int id)
+        {
+            if(technologies[id].IsInvented)
+            {
+                return false;
+            }
+
+            if(((MainWindow)this.Owner).CheckMoney() < technologies[id].Price)
+            {
+                MessageBox.Show("You dont have enough money! " + technologies[id].Name + " price is " + technologies[id].Price);
+                return false;
+            }
+
+            return true;
         }
     }
 }

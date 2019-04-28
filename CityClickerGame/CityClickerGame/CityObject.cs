@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CityClickerGame
 {
-    class CityObject
+    public class CityObject
     {
         private string name;
         private ulong price = 0;

@@ -19,8 +19,8 @@ namespace CityClickerGame
 {
     public partial class MainWindow : Window
     {
-        Wallet wallet = new Wallet(1);
-        CityObject[] buildings = new CityObject[16];
+        public Wallet wallet = new Wallet(1);
+        public CityObject[] buildings = new CityObject[16];
         TextBox[] pricesTextBoxes = new TextBox[16];
         TextBlock[] amountTextBlocks = new TextBlock[16];
         Factory factory = new Factory();

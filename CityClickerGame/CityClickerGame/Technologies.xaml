@@ -266,6 +266,230 @@
                 </LinearGradientBrush>
             </TextBlock.Foreground>
         </TextBlock>
+        <TextBlock x:Name="techName1" HorizontalAlignment="Left" Margin="11,12,0,0" TextWrapping="Wrap" Text="Electricity" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName2" HorizontalAlignment="Left" Margin="129,12,0,0" TextWrapping="Wrap" Text="Railroad" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName3" HorizontalAlignment="Left" Margin="246,12,0,0" TextWrapping="Wrap" Text="Electronics" VerticalAlignment="Top" Width="99" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName4" HorizontalAlignment="Left" Margin="19,12,0,0" TextWrapping="Wrap" Text="Atomic theory" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName5" HorizontalAlignment="Left" Margin="137,12,0,0" TextWrapping="Wrap" Text="Computers" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName6" HorizontalAlignment="Left" Margin="254,12,0,0" TextWrapping="Wrap" Text="Ecology" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName7" HorizontalAlignment="Left" Margin="371,12,0,0" TextWrapping="Wrap" Text="Nuclear Fission" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" TextAlignment="Center" Height="17" FontSize="11">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName8" HorizontalAlignment="Left" Margin="11,126,0,0" TextWrapping="Wrap" Text="Lasers" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName9" HorizontalAlignment="Left" Margin="129,126,0,0" TextWrapping="Wrap" Text="Robotics" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName10" HorizontalAlignment="Left" Margin="246,126,0,0" TextWrapping="Wrap" Text="Satelites" VerticalAlignment="Top" Width="99" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName11" HorizontalAlignment="Left" Margin="19,126,0,0" TextWrapping="Wrap" Text="The Internet" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName12" HorizontalAlignment="Left" Margin="137,126,0,0" TextWrapping="Wrap" Text="Nuclear Fusion" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName13" HorizontalAlignment="Left" Margin="254,126,0,0" TextWrapping="Wrap" Text="Graphen" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName14" HorizontalAlignment="Left" Margin="371,126,0,0" TextWrapping="Wrap" Text="Autonomus System" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontFamily="Visitor TT1 BRK" TextAlignment="Center" Height="17" FontSize="10" FontWeight="Bold">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName15" HorizontalAlignment="Left" Margin="11,241,0,0" TextWrapping="Wrap" Text="Orbital Networks" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" TextAlignment="Center" Height="17" FontSize="10">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName16" HorizontalAlignment="Left" Margin="129,241,0,0" TextWrapping="Wrap" Text="Nanotechnology" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" TextAlignment="Center" Height="17" FontSize="11">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName17" HorizontalAlignment="Left" Margin="246,241,0,0" TextWrapping="Wrap" Text="Artifical Inteligence" VerticalAlignment="Top" Width="99" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="10" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName18" HorizontalAlignment="Left" Margin="19,241,0,0" TextWrapping="Wrap" Text="Field Theory" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName19" HorizontalAlignment="Left" Margin="137,241,0,0" TextWrapping="Wrap" Text="Mechatronics" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName20" HorizontalAlignment="Left" Margin="254,241,0,0" TextWrapping="Wrap" Text="Maglev Train" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName21" HorizontalAlignment="Left" Margin="371,241,0,0" TextWrapping="Wrap" Text="Vertical Bio-farming" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" TextAlignment="Center" Height="17" FontSize="10">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName22" HorizontalAlignment="Left" Margin="11,357,0,0" TextWrapping="Wrap" Text="Bioengineering" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName23" HorizontalAlignment="Left" Margin="129,357,0,0" TextWrapping="Wrap" Text="Bio-Metallurgy" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName24" HorizontalAlignment="Left" Margin="246,357,0,0" TextWrapping="Wrap" Text="Swarm Inteligence" VerticalAlignment="Top" Width="99" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="10" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName25" HorizontalAlignment="Left" Margin="19,357,0,0" TextWrapping="Wrap" Text="Hyper Computing" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" TextAlignment="Center" Height="17" FontSize="11">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName26" HorizontalAlignment="Left" Margin="137,357,0,0" TextWrapping="Wrap" Text="Exotic Materials" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="10" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName27" HorizontalAlignment="Left" Margin="254,357,0,0" TextWrapping="Wrap" Text="Planet Engineering" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="10" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="techName28" HorizontalAlignment="Left" Margin="371,357,0,0" TextWrapping="Wrap" Text="Neural Uploading" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" Grid.Column="1" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="10" TextAlignment="Center" Height="17">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF420068" Offset="0"/>
+                    <GradientStop Color="#FF7A00BF" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
     </Grid>
 </Window>

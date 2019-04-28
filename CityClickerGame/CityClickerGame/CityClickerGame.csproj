@@ -141,12 +141,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\object13.jpg" />
-    <Resource Include="Resources\object15.jpg" />
-    <Resource Include="Resources\object16.jpg" />
-    <Resource Include="Resources\object6.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="bin\Debug\Airglow_-_03_-_Electrifying_Landscape %28online-audio-converter.com%29.wav" />
   </ItemGroup>
   <ItemGroup>
@@ -220,6 +214,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\uninventedTest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object15.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object16.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\object13.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

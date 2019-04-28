@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CityClickerGame"
         mc:Ignorable="d"
-        Title="SynthCity 1.0.2" Height="650" Width="1095">
+        Title="SynthCity 1.1.0" Height="650" Width="1095">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="Resources/background.jpg">
@@ -32,97 +32,209 @@
             <Image Source="Resources/object1.png"/>
         </Button>
 
-        <TextBlock x:Name="object1Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="18"/>
+        <TextBlock x:Name="object1Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="18" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object5" HorizontalAlignment="Left" Margin="338,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
             <Image Source="Resources/object5.png"/>
         </Button>
 
-        <TextBlock x:Name="object5Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object5Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object9"  HorizontalAlignment="Left" Margin="338,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
             <Image Source="Resources/object9.png"/>
         </Button>
 
-        <TextBlock x:Name="object9Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object9Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object13" HorizontalAlignment="Left" Margin="338,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject">
-            <Image Source="Resources/object13.jpg"/>
+            <Image Source="Resources/object13.PNG"/>
         </Button>
 
-        <TextBlock x:Name="object13Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object13Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="341,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object2" HorizontalAlignment="Left" Margin="488,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
             <Image Source="Resources/object2.png"/>
         </Button>
 
-        <TextBlock x:Name="object2Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="18"/>
+        <TextBlock x:Name="object2Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="18" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object6" HorizontalAlignment="Left" Margin="488,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
-            <Image Source="Resources/object6.jpg"/>
+            <Image Source="Resources/object6.PNG"/>
         </Button>
 
-        <TextBlock x:Name="object6Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object6Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object10" HorizontalAlignment="Left" Margin="488,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
             <Image Source="Resources/object10.png"/>
         </Button>
 
-        <TextBlock x:Name="object10Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object10Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object14" HorizontalAlignment="Left" Margin="488,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject">
             <Image Source="Resources/object14.png"/>
         </Button>
 
-        <TextBlock x:Name="object14Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object14Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="491,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object3" HorizontalAlignment="Left" Margin="639,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
             <Image Source="Resources/object3.png"/>
         </Button>
 
-        <TextBlock x:Name="object3Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="18"/>
+        <TextBlock x:Name="object3Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="18" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object7" HorizontalAlignment="Left" Margin="639,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
             <Image Source="Resources/object7.png"/>
         </Button>
 
-        <TextBlock x:Name="object7Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object7Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object11" HorizontalAlignment="Left" Margin="639,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
             <Image Source="Resources/object11.png"/>
         </Button>
 
-        <TextBlock x:Name="object11Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object11Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object15" HorizontalAlignment="Left" Margin="639,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject">
-            <Image Source="Resources/object15.jpg"/>
+            <Image Source="Resources/object15.PNG"/>
         </Button>
 
-        <TextBlock x:Name="object15Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19"/>
+        <TextBlock x:Name="object15Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="642,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object4" HorizontalAlignment="Left" Margin="789,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
             <Image Source="Resources/object4.png"/>
         </Button>
 
-        <TextBlock x:Name="object4Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="18" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="object4Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="18" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object8" HorizontalAlignment="Left" Margin="789,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
             <Image Source="Resources/object8.png"/>
         </Button>
 
-        <TextBlock x:Name="object8Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="object8Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,164,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object12" HorizontalAlignment="Left" Margin="789,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
             <Image Source="Resources/object12.png"/>
         </Button>
 
-        <TextBlock x:Name="object12Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="object12Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,317,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Button x:Name="object16" HorizontalAlignment="Left" Margin="789,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject" Grid.ColumnSpan="2">
-            <Image Source="Resources/object16.jpg"/>
+            <Image Source="Resources/object16.PNG"/>
         </Button>
 
-        <TextBlock x:Name="object16Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="127" Height="19" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="object16Amount" x:FieldModifier="public" HorizontalAlignment="Left" Margin="792,469,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="124" Height="19" FontWeight="Bold" TextDecorations="{x:Null}">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF600295" Offset="0"/>
+                    <GradientStop Color="#FFB74CF3" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
         <Image x:Name="moneyContainer" HorizontalAlignment="Left" Height="64" Margin="10,545,0,0" VerticalAlignment="Top" Width="64" Source="Resources/money.PNG"/>
         <TextBlock x:Name="moneyAmount" HorizontalAlignment="Left" Margin="79,565,0,0" TextWrapping="Wrap" Text="0" Height="30" Width="240" LineHeight="6" FontSize="30" VerticalAlignment="Top" FontFamily="Visitor TT1 BRK" FontWeight="Bold" Background="#66FFFFFF">
@@ -309,6 +421,14 @@
                 </RadialGradientBrush>
             </Button.Background>
         </Button>
+        <TextBlock x:Name="moneyName" HorizontalAlignment="Left" Margin="79,549,0,0" TextWrapping="Wrap" Text="Palms:" VerticalAlignment="Top" FontFamily="Visitor TT1 BRK" FontWeight="Bold" FontSize="18" TextDecorations="{x:Null}" FontStyle="Italic">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1C0132" Offset="0"/>
+                    <GradientStop Color="#FF460080" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
     </Grid>
 </Window>

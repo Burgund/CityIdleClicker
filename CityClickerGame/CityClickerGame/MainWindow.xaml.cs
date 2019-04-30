@@ -26,7 +26,7 @@ namespace CityClickerGame
         Factory factory = new Factory();
         DispatcherTimer timer = new DispatcherTimer();
         SoundPlayer player = new SoundPlayer();
-        Achivement[] achivementsArray = new Achivement[28];
+        public Achivement[] achivementsArray = new Achivement[28];
         Technology[] technologiesArray = new Technology[28];
 
         public MainWindow()
@@ -200,12 +200,12 @@ namespace CityClickerGame
 
         private void save_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.1.0");
+            MessageBox.Show("Not available in SynthCity alpha 1.1.1");
         }
 
         private void load_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.1.0");
+            MessageBox.Show("Not available in SynthCity alpha 1.1.1");
             CheckForAchivement(3);
         }
 
@@ -254,18 +254,18 @@ namespace CityClickerGame
             {
                 if(id == 3)
                 {
-                    if (!technologiesArray[2].IsInvented)
+                    if (!technologiesArray[1].IsInvented)
                     {
-                        MessageBox.Show("You have no technology to build this! You need " + technologiesArray[2].Name);
+                        MessageBox.Show("You have no technology to build this! You need " + technologiesArray[1].Name);
                         return false;
                     }
                 }
 
                 if(id == 7)
                 {
-                    if(!technologiesArray[1].IsInvented)
+                    if(!technologiesArray[2].IsInvented)
                     {
-                        MessageBox.Show("You have no technology to build this! You need " + technologiesArray[1].Name);
+                        MessageBox.Show("You have no technology to build this! You need " + technologiesArray[2].Name);
                         return false;
                     }
                 }

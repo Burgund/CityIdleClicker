@@ -13,8 +13,8 @@ namespace CityClickerGame
         public void BuildTechnologiesArray(Technology[] technologies)
         {
             technologies[0] = new Technology("Electricity", "+1% PPS", 1, 1000);
-            technologies[1] = new Technology("Railroad", "Unlocks railstations", 2, 2000);
-            technologies[2] = new Technology("Electronics", "Unlocks energy lines ", 3, 5000);
+            technologies[1] = new Technology("Electronics", "Unlocks energy lines", 2, 2000);
+            technologies[2] = new Technology("Railroad", "Unlocks railstations", 3, 5000);
             technologies[3] = new Technology("Atomic theory", "+2% PPS", 4, 10000);
             technologies[4] = new Technology("Computers", "+2% PPS and +2% PPC", 5, 20000);
             technologies[5] = new Technology("Ecology", "+3% PPC", 6, 50000);

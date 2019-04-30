@@ -77,7 +77,7 @@ namespace CityClickerGame
             }
         }
 
-        private void InventRailroad(object sender, MouseEventArgs e)
+        private void InventElectronics(object sender, MouseEventArgs e)
         {
             if (CheckForAvability(1))
             {
@@ -87,13 +87,17 @@ namespace CityClickerGame
             }
         }
 
-        private void InventElectronics(object sender, MouseEventArgs e)
+        private void InventRailroad(object sender, MouseEventArgs e)
         {
             if (CheckForAvability(2))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[2].Price);
                 this.technology3.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 technologies[2].IsInvented = true;
+                if(technologies[19].IsInvented)
+                {
+                    CheckForAchivement(24);
+                }
             }
         }
 
@@ -105,6 +109,10 @@ namespace CityClickerGame
                 this.technology4.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.02);
                 technologies[3].IsInvented = true;
+                if (technologies[6].IsInvented && technologies[11].IsInvented)
+                {
+                    CheckForAchivement(25);
+                }
             }
         }
 
@@ -117,6 +125,10 @@ namespace CityClickerGame
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.02);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.02);
                 technologies[4].IsInvented = true;
+                if (technologies[8].IsInvented && technologies[16].IsInvented && technologies[21].IsInvented && technologies[27].IsInvented)
+                {
+                    CheckForAchivement(27);
+                }
             }
         }
 
@@ -128,6 +140,7 @@ namespace CityClickerGame
                 this.technology6.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.03);
                 technologies[5].IsInvented = true;
+                CheckForAchivement(23);
             }
         }
 
@@ -138,6 +151,10 @@ namespace CityClickerGame
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[6].Price);
                 this.technology7.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 technologies[6].IsInvented = true;
+                if (technologies[3].IsInvented && technologies[11].IsInvented)
+                {
+                    CheckForAchivement(25);
+                }
             }
         }
 
@@ -160,6 +177,10 @@ namespace CityClickerGame
                 this.technology9.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.05);
                 technologies[8].IsInvented = true;
+                if (technologies[4].IsInvented && technologies[16].IsInvented && technologies[21].IsInvented && technologies[27].IsInvented)
+                {
+                    CheckForAchivement(27);
+                }
             }
         }
 
@@ -170,6 +191,10 @@ namespace CityClickerGame
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[9].Price);
                 this.technology10.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 technologies[9].IsInvented = true;
+                if (technologies[14].IsInvented && technologies[26].IsInvented)
+                {
+                    CheckForAchivement(25);
+                }
             }
         }
 
@@ -193,6 +218,10 @@ namespace CityClickerGame
                 this.technology12.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 ((MainWindow)this.Owner).buildings[9].IncreaseMultiplier(1);
                 technologies[11].IsInvented = true;
+                if (technologies[3].IsInvented && technologies[6].IsInvented)
+                {
+                    CheckForAchivement(25);
+                }
             }
         }
 
@@ -227,6 +256,10 @@ namespace CityClickerGame
                 this.technology15.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 ((MainWindow)this.Owner).buildings[13].IncreaseMultiplier(1);
                 technologies[14].IsInvented = true;
+                if (technologies[9].IsInvented && technologies[26].IsInvented)
+                {
+                    CheckForAchivement(26);
+                }
             }
         }
 
@@ -250,6 +283,10 @@ namespace CityClickerGame
                 this.technology17.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.06);
                 technologies[16].IsInvented = true;
+                if (technologies[4].IsInvented && technologies[8].IsInvented && technologies[21].IsInvented && technologies[27].IsInvented)
+                {
+                    CheckForAchivement(27);
+                }
             }
         }
 
@@ -283,7 +320,11 @@ namespace CityClickerGame
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[19].Price);
                 this.technology20.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.1);
-                technologies[19].IsInvented = true;
+                technologies[1].IsInvented = true;
+                if (technologies[1].IsInvented)
+                {
+                    CheckForAchivement(24);
+                }
             }
         }
 
@@ -308,6 +349,10 @@ namespace CityClickerGame
                 this.technology22.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 //<TODO> random events for biotechnology here
                 technologies[21].IsInvented = true;
+                if (technologies[4].IsInvented && technologies[8].IsInvented && technologies[16].IsInvented && technologies[27].IsInvented)
+                {
+                    CheckForAchivement(27);
+                }
             }
         }
 
@@ -361,6 +406,10 @@ namespace CityClickerGame
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[26].Price);
                 this.technology27.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 technologies[26].IsInvented = true;
+                if (technologies[14].IsInvented && technologies[9].IsInvented)
+                {
+                    CheckForAchivement(26);
+                }
             }
         }
 
@@ -372,6 +421,10 @@ namespace CityClickerGame
                 this.technology28.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(1);
                 technologies[27].IsInvented = true;
+                if (technologies[4].IsInvented && technologies[8].IsInvented && technologies[16].IsInvented && technologies[21].IsInvented)
+                {
+                    CheckForAchivement(27);
+                }
             }
         }
 
@@ -479,6 +532,15 @@ namespace CityClickerGame
                 case 28:
                     this.technology28.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                     break;
+            }
+        }
+
+        public void CheckForAchivement(int x)
+        {
+            if (!((MainWindow)this.Owner).achivementsArray[x].IsAchived)
+            {
+                ((MainWindow)this.Owner).achivementsArray[x].IsAchived = true;
+                ((MainWindow)this.Owner).achivementsArray[x].WhenAchived();
             }
         }
     }

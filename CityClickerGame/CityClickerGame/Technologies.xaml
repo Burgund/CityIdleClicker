@@ -15,9 +15,9 @@
             <ImageBrush ImageSource="Resources/background.jpg"/>
         </Grid.Background>
         <Image x:Name="technology1" HorizontalAlignment="Left" Height="100" Margin="11,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Electricity [+1% PPS]" MouseDown="InventElectricity"/>
-        <Image x:Name="technology2" HorizontalAlignment="Left" Height="100" Margin="129,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Railroad [Unlocks railstations]" MouseDown="InventRailroad"/>
-        <Image x:Name="technology3" HorizontalAlignment="Left" Height="100" Margin="246,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Electronics [Unlocks energy lines]" Grid.ColumnSpan="2" MouseDown="InventElectronics"/>
-        <Image x:Name="technology4" HorizontalAlignment="Left" Height="100" Margin="19.302,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Atomic theory [+2% PPS]" Grid.Column="1" MouseDown="InventElectronics"/>
+        <Image x:Name="technology2" HorizontalAlignment="Left" Height="100" Margin="129,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Electronics [Unlocks energy lines]" MouseDown="InventElectronics"/>
+        <Image x:Name="technology3" HorizontalAlignment="Left" Height="100" Margin="246,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Railroad [Unlocks railstations]" Grid.ColumnSpan="2" MouseDown="InventRailroad"/>
+        <Image x:Name="technology4" HorizontalAlignment="Left" Height="100" Margin="19.302,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Atomic theory [+2% PPS]" Grid.Column="1" MouseDown="InventAtomicTheory"/>
         <Image x:Name="technology5" HorizontalAlignment="Left" Height="100" Margin="137.302,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Computers [+2% PPS and +2% PPC]" Grid.Column="1" MouseDown="InventComputers"/>
         <Image x:Name="technology6" HorizontalAlignment="Left" Height="100" Margin="254.302,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Ecology [+3% PPC]" Grid.Column="1" MouseDown="InventEcology"/>
         <Image x:Name="technology7" HorizontalAlignment="Left" Height="100" Margin="371.302,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Nuclear Fission [Unlocks Nuclear Power Plant]" Grid.Column="1" MouseDown="InventNuclearFission"/>
@@ -274,7 +274,7 @@
                 </LinearGradientBrush>
             </TextBlock.Foreground>
         </TextBlock>
-        <TextBlock x:Name="techName2" HorizontalAlignment="Left" Margin="129,12,0,0" TextWrapping="Wrap" Text="Railroad" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+        <TextBlock x:Name="techName2" HorizontalAlignment="Left" Margin="129,12,0,0" TextWrapping="Wrap" Text="Electronics" VerticalAlignment="Top" Width="100" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
             <TextBlock.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF420068" Offset="0"/>
@@ -282,7 +282,7 @@
                 </LinearGradientBrush>
             </TextBlock.Foreground>
         </TextBlock>
-        <TextBlock x:Name="techName3" HorizontalAlignment="Left" Margin="246,12,0,0" TextWrapping="Wrap" Text="Electronics" VerticalAlignment="Top" Width="99" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
+        <TextBlock x:Name="techName3" HorizontalAlignment="Left" Margin="246,12,0,0" TextWrapping="Wrap" Text="Railroad" VerticalAlignment="Top" Width="99" Background="#66FFFFFF" FontWeight="Bold" FontFamily="Visitor TT1 BRK" FontSize="14" TextAlignment="Center" Height="17">
             <TextBlock.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF420068" Offset="0"/>

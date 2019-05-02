@@ -14,9 +14,6 @@ using System.Windows.Shapes;
 
 namespace CityClickerGame
 {
-    /// <summary>
-    /// Logika interakcji dla klasy Credits.xaml
-    /// </summary>
     public partial class Credits : Window
     {
         public Credits()

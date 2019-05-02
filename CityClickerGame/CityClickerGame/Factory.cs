@@ -11,6 +11,7 @@ namespace CityClickerGame
 {
     class Factory
     {
+        //Fills technologies array with hardcoded data
         public void BuildTechnologiesArray(Technology[] technologies)
         {
             technologies[0] = new Technology("Electricity", "+1% PPS", 1, 1000);
@@ -43,6 +44,7 @@ namespace CityClickerGame
             technologies[27] = new Technology("Neural Uploading", "+100% PPC", 28, 1000000000000);
         }
 
+        //Fills achivements array with hardcoded data
         public void BuildAchivementsArray(Achivement[] achivements)
         {
             achivements[0] = new Achivement("Focus", "Turn off music ", 1);
@@ -75,6 +77,7 @@ namespace CityClickerGame
             achivements[27] = new Achivement("Cyborg", "Invite Computers, Robotics, AI, Bioengineering and Neural Uploading", 28);
         }
 
+        //Fills buildings array with hardcoded data
         public void BuildObjectArray(CityObject[] buildings)
         {
             buildings[0] = new CityObject(100, 1, 0.1);
@@ -95,6 +98,7 @@ namespace CityClickerGame
             buildings[15] = new CityObject(1000000000, 2000000, 1000);
         }
 
+        //Fills textboxes in MainWindow with prices
         public void CreatePrices(CityObject[] buildings)
         {
             foreach (Window window in Application.Current.Windows)
@@ -120,6 +124,7 @@ namespace CityClickerGame
                 }
             }
         }
+
 
         public void BuildWindowArrays(TextBox[] prices, TextBlock[] amount)
         {
@@ -164,13 +169,14 @@ namespace CityClickerGame
             }
         }
 
+        //Fills clickArea backgrounds array with images
         public void BuildBackgroundImagesArray(BackgroundImage[] images)
         {
             images[0] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground2.png", UriKind.Relative)), 10);
-            images[1] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground3.png", UriKind.Relative)), 100);
-            images[2] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground4.png", UriKind.Relative)), 1000);
-            images[3] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground5.png", UriKind.Relative)), 10000);
-            images[4] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground6.png", UriKind.Relative)), 100000);
+            images[1] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground3.png", UriKind.Relative)), 500);
+            images[2] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground4.png", UriKind.Relative)), 10000);
+            images[3] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground5.png", UriKind.Relative)), 100000);
+            images[4] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground6.png", UriKind.Relative)), 1000000);
         }
     }
 }

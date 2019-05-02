@@ -60,6 +60,9 @@ namespace CityClickerGame
             moneyAmount.Text = Convert.ToString(wallet.TotalMoney);
             CheckForClickArea();
 
+            ppsValueTextBlock.Text = Convert.ToString(wallet.GetRealMoneyPerSecond());
+            ppcValueTextBlock.Text = Convert.ToString(Convert.ToInt64(wallet.GetRealMoneyPerClick()));
+
             if (wallet.TotalMoney >= 10000)
             {
                 CheckForAchivement(4);
@@ -205,12 +208,12 @@ namespace CityClickerGame
 
         private void save_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.2.0");
+            MessageBox.Show("Not available in SynthCity alpha 1.2.1");
         }
 
         private void load_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.2.0");
+            MessageBox.Show("Not available in SynthCity alpha 1.2.1");
             CheckForAchivement(3);
         }
 

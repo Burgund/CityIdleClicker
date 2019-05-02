@@ -166,11 +166,11 @@ namespace CityClickerGame
 
         public void BuildBackgroundImagesArray(BackgroundImage[] images)
         {
-            images[0] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground2.png", UriKind.Relative)), 8);
-            images[1] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground3.png", UriKind.Relative)), 100000);
-            images[2] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground4.png", UriKind.Relative)), 10000000);
-            images[3] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground5.png", UriKind.Relative)), 800000000);
-            images[4] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground6.png", UriKind.Relative)), 10000000000);
+            images[0] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground2.png", UriKind.Relative)), 10);
+            images[1] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground3.png", UriKind.Relative)), 100);
+            images[2] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground4.png", UriKind.Relative)), 1000);
+            images[3] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground5.png", UriKind.Relative)), 10000);
+            images[4] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground6.png", UriKind.Relative)), 100000);
         }
     }
 }

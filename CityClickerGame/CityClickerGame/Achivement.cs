@@ -39,7 +39,9 @@ namespace CityClickerGame
 
         public void WhenAchived()
         {
-            MessageBox.Show("Congratulations! You just unlocked achivement " + name);
+            AchivedNotification achived = new AchivedNotification(this.name, this.condition);
+            achived.Show();
+            //MessageBox.Show("Congratulations! You just unlocked achivement " + name);
         }
     }
 }

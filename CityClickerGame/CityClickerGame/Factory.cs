@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media.Imaging;
 
 namespace CityClickerGame
 {
@@ -32,8 +33,8 @@ namespace CityClickerGame
             technologies[17] = new Technology("Field Theory", "+6% PPC", 18, 500000000);
             technologies[18] = new Technology("Mechatronics", "+5% PPC and +5% PPS", 19, 1000000000);
             technologies[19] = new Technology("Maglev Train", "+10% PPC", 20, 2000000000);
-            technologies[20] = new Technology("Vertical Bio-farming", "+10% PPC and +10% PPS but may cause overpopulation! [Warning! You CANT undo this]", 21, 5000000000);
-            technologies[21] = new Technology("Bioengineering", "Bioengineering is always risky... What would happend? [Warning! You CANT undo this]", 22, 10000000000);
+            technologies[20] = new Technology("Vertical Bio-farming", "+10% PPC and +10% PPS but may cause overpopulation! [Warning! You CAN'T undo this]", 21, 5000000000);
+            technologies[21] = new Technology("Bioengineering", "Bioengineering is always risky... What would happend? [Warning! You CAN'T undo this]", 22, 10000000000);
             technologies[22] = new Technology("Bio-Metallurgy", "+20% PPC", 23, 20000000000);
             technologies[23] = new Technology("Swarm Inteligence", "+20% PPS", 24, 50000000000);
             technologies[24] = new Technology("Hyper Computing", "Protects you from devastating events", 25, 100000000000);
@@ -48,15 +49,15 @@ namespace CityClickerGame
             achivements[1] = new Achivement("Curiostity", "Open credits window", 2);
             achivements[2] = new Achivement("Gon on!", "Open achivements window", 3);
             achivements[3] = new Achivement("Louder!", "Load game", 4);
-            achivements[4] = new Achivement("Poor guy", "Collect 10000 (10 tousand)", 5);
-            achivements[5] = new Achivement("Your first car!", "Collect 1000000 (million)", 6);
-            achivements[6] = new Achivement("Cream of the crop", "Collect 1000000000 (milliard)", 7);
-            achivements[7] = new Achivement("Businessman", "Collect 1000000000000 (billion)", 8);
-            achivements[8] = new Achivement("Rockefeller, is it you?", "Collect 1000000000000000 (billiard)", 9);
-            achivements[9] = new Achivement("Golden Pepe apeared", "Collect 1000000000000000000 (Trillion)", 10);
+            achivements[4] = new Achivement("Poor guy", "Collect 10000 (10 tousand palms)", 5);
+            achivements[5] = new Achivement("Your first car!", "Collect 1000000 (million palms)", 6);
+            achivements[6] = new Achivement("Cream of the crop", "Collect 1000000000 (milliard palms)", 7);
+            achivements[7] = new Achivement("Businessman", "Collect 1000000000000 (billion palms)", 8);
+            achivements[8] = new Achivement("Rockefeller, is it you?", "Collect 1000000000000000 (billiard palms)", 9);
+            achivements[9] = new Achivement("Golden Pepe apeared", "Collect 1000000000000000000 (Trillion palms)", 10);
             achivements[10] = new Achivement("Wow!", "Build your first building", 11);
             achivements[11] = new Achivement("Amazing!", "Build the most expensive building", 12);
-            achivements[12] = new Achivement("Stahp!", "Have at least 100 building of whichever kind of building", 13);
+            achivements[12] = new Achivement("Stahp!", "Have at least 100 buildings of whichever kind", 13);
             achivements[13] = new Achivement("A", "Have 10 PPC", 14);
             achivements[14] = new Achivement("B", "Have 100 PPC", 15);
             achivements[15] = new Achivement("C", "Have 1000 PPC", 16);
@@ -66,7 +67,7 @@ namespace CityClickerGame
             achivements[19] = new Achivement("Global Elite", "Have 10000000 PPS", 20);
             achivements[20] = new Achivement("Motion defeated", "Try to buy something without enough money", 21);
             achivements[21] = new Achivement("What are you doing?!", "Click this achivement", 22);
-            achivements[22] = new Achivement("Geek", "Open technology window", 23);
+            achivements[22] = new Achivement("Geek", "Open technologies window", 23);
             achivements[23] = new Achivement("Ecologist", "Invent Ecology", 24);
             achivements[24] = new Achivement("Wooosh", "Invent Railroads and Maglev Train", 25);
             achivements[25] = new Achivement("DEFCON 1", "Invent Nuclear Fission, Fusion and Atomic Theory", 26);
@@ -161,6 +162,15 @@ namespace CityClickerGame
                     amount[15] = (window as MainWindow).object16Amount;
                 }
             }
+        }
+
+        public void BuildBackgroundImagesArray(BackgroundImage[] images)
+        {
+            images[0] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground2.png", UriKind.Relative)), 8);
+            images[1] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground3.png", UriKind.Relative)), 100000);
+            images[2] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground4.png", UriKind.Relative)), 10000000);
+            images[3] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground5.png", UriKind.Relative)), 800000000);
+            images[4] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground6.png", UriKind.Relative)), 10000000000);
         }
     }
 }

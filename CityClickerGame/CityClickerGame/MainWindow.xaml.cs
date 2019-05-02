@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using System.Drawing;
 
 namespace CityClickerGame
 {
@@ -28,6 +29,7 @@ namespace CityClickerGame
         SoundPlayer player = new SoundPlayer();
         public Achivement[] achivementsArray = new Achivement[28];
         Technology[] technologiesArray = new Technology[28];
+        BackgroundImage[] backgroundsArray = new BackgroundImage[5];
 
         public MainWindow()
         {
@@ -42,6 +44,7 @@ namespace CityClickerGame
                 factory.CreatePrices(buildings);
                 factory.BuildWindowArrays(pricesTextBoxes, amountTextBlocks);
                 factory.BuildTechnologiesArray(technologiesArray);
+                factory.BuildBackgroundImagesArray(backgroundsArray);
                 MusicPlays();
             }
             catch(Exception e)
@@ -55,6 +58,8 @@ namespace CityClickerGame
         {
             wallet.AddMoney(wallet.GetRealMoneyPerSecond());
             moneyAmount.Text = Convert.ToString(wallet.TotalMoney);
+            CheckForClickArea();
+
             if (wallet.TotalMoney >= 10000)
             {
                 CheckForAchivement(4);
@@ -321,6 +326,21 @@ namespace CityClickerGame
             {
                 MessageBox.Show("Not available! You have to have at least one " + buildings[id-1].Name);
                 return false;
+            }
+        }
+
+        private void CheckForClickArea()
+        {
+            for (int x = 0; x < backgroundsArray.Length; x++)
+            {
+                if (!backgroundsArray[x].WasActive)
+                {
+                    if (backgroundsArray[x].PpsNeededToUnlock <= wallet.GetRealMoneyPerSecond())
+                    {
+                        clickArea.Source = backgroundsArray[x].Image;
+                        backgroundsArray[x].WasActive = true;
+                    }
+                }
             }
         }
     }

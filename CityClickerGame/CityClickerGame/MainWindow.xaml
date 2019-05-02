@@ -24,10 +24,6 @@
             <ColumnDefinition Width="81*"/>
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="clickArea" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="309" Height="530" FontSize="48" Click="ClickArea_Click" >
-            <Image Source="Resources/clickAreaBackground.png"/>
-        </Button>
-
         <Button x:Name="object1" HorizontalAlignment="Left" Margin="338,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
             <Image Source="Resources/object1.png"/>
         </Button>
@@ -429,6 +425,8 @@
                 </LinearGradientBrush>
             </TextBlock.Foreground>
         </TextBlock>
+
+        <Image x:Name="clickArea" HorizontalAlignment="Left" Height="528" Margin="9,9,0,0" VerticalAlignment="Top" Width="309" Source="Resources/clickAreaBackground1.png" MouseDown="ClickArea_Click"/>
 
     </Grid>
 </Window>

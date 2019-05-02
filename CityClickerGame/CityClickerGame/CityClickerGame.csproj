@@ -73,10 +73,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AchivedNotification.xaml.cs">
+      <DependentUpon>AchivedNotification.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Achivement.cs" />
     <Compile Include="Achivements.xaml.cs">
       <DependentUpon>Achivements.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BackgroundImage.cs" />
     <Compile Include="CityObject.cs" />
     <Compile Include="Credits.xaml.cs">
       <DependentUpon>Credits.xaml</DependentUpon>
@@ -87,6 +91,10 @@
     </Compile>
     <Compile Include="Technology.cs" />
     <Compile Include="Wallet.cs" />
+    <Page Include="AchivedNotification.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Achivements.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -171,9 +179,6 @@
     <Resource Include="Resources\available.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\clickAreaBackground.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\object1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -226,6 +231,14 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\object13.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\clickAreaBackground1.png" />
+    <Resource Include="Resources\clickAreaBackground2.png" />
+    <Resource Include="Resources\clickAreaBackground3.png" />
+    <Resource Include="Resources\clickAreaBackground4.png" />
+    <Resource Include="Resources\clickAreaBackground5.png" />
+    <Resource Include="Resources\clickAreaBackground6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

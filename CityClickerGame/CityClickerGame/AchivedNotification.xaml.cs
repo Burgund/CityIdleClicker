@@ -16,6 +16,7 @@ namespace CityClickerGame
 {
     public partial class AchivedNotification : Window
     {
+        //Constructor
         public AchivedNotification(string name, string description)
         {
             InitializeComponent();
@@ -23,6 +24,7 @@ namespace CityClickerGame
             this.achivementName.Text = name;
         }
 
+        //Closing this window
         private void okButton_Click(object sender, RoutedEventArgs e)
         {
             this.Close();

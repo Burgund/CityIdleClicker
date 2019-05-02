@@ -16,16 +16,17 @@ namespace CityClickerGame
 {
     public partial class Achivements : Window
     {
+        //Private variables and constructor ---------------------------------------------------------------
         Achivement[] achivements = new Achivement[28];
 
         public Achivements(Achivement[] achivements)
         {
             InitializeComponent();
-
             this.achivements = achivements;
-
+            //setting achivement "Open achivements vindow" image as achived, it's always achived when this window is open
             this.achivement3.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
 
+            //When calling and initializing achivements window this loop checks which achivements images should be set as achived
             foreach (Achivement x in achivements)
             {
                 if(x.IsAchived)
@@ -35,14 +36,16 @@ namespace CityClickerGame
             }
         }
 
+        //Buttons handlers ---------------------------------------------------------------------------------
+        //Achivement number 22 (or index 21 in array) can only be achived by clicking it's image
         private void SecretTwentyTwoAchived(object sender, MouseEventArgs e)
         {
             ((MainWindow)this.Owner).CheckForAchivement(21);
-
             this.achivement22.Source = new BitmapImage(new Uri("Resources/available.jpg", UriKind.Relative));
             ((MainWindow)this.Owner).SetTwentyTwo();
         }
 
+        //Class logic --------------------------------------------------------------------------------------
         public void SetAchived(int number)
         {
             switch (number)

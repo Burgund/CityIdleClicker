@@ -10,6 +10,7 @@ namespace CityClickerGame
 {
     public class Achivement
     {
+        //Private variables, getters and setters ------------------------------------------
         private string name;
         private bool isAchived = false;
         private string picture;
@@ -22,6 +23,7 @@ namespace CityClickerGame
         public string Condition { get => condition; set => condition = value; }
         public int Id { get => id; set => id = value; }
 
+        //Overloaded constructors --------------------------------------------------------
         public Achivement(string name, string picture, string condition, bool isAchived)
         {
             this.name = name;
@@ -37,11 +39,11 @@ namespace CityClickerGame
             this.id = id;
         }
 
+        //When this achivement is unlocked this function is calling WPF window with informations about this
         public void WhenAchived()
         {
             AchivedNotification achived = new AchivedNotification(this.name, this.condition);
             achived.Show();
-            //MessageBox.Show("Congratulations! You just unlocked achivement " + name);
         }
     }
 }

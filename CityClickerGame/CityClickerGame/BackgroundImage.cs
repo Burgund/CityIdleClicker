@@ -9,6 +9,7 @@ namespace CityClickerGame
 {
     class BackgroundImage
     {
+        //Private Variables, getters and setters -----------------------------------------------
         private BitmapImage image;
         private bool wasActive = false;
         private ulong ppsNeededToUnlock;
@@ -17,6 +18,7 @@ namespace CityClickerGame
         public bool WasActive { get => wasActive; set => wasActive = value; }
         public ulong PpsNeededToUnlock { get => ppsNeededToUnlock; set => ppsNeededToUnlock = value; }
 
+        //Constructor
         public BackgroundImage(BitmapImage image, ulong ppsNeededToUnlock)
         {
             this.image = image;

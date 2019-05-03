@@ -320,7 +320,7 @@ namespace CityClickerGame
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[19].Price);
                 this.technology20.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.1);
-                technologies[1].IsInvented = true;
+                technologies[19].IsInvented = true;
                 if (technologies[1].IsInvented)
                 {
                     CheckForAchivement(24);

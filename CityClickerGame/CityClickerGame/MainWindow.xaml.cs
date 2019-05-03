@@ -218,6 +218,7 @@ namespace CityClickerGame
             //music plays
         }
 
+        //Opening other windows -------------------------------------------------
         private void achivements_button_Click(object sender, RoutedEventArgs e)
         {
             Achivements achivements = new Achivements(achivementsArray);
@@ -243,6 +244,7 @@ namespace CityClickerGame
             CheckForAchivement(1);
         }
 
+        //Save-load handling ---------------------------------------------------
         private void save_button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Not available in SynthCity alpha 1.2.2");
@@ -254,6 +256,7 @@ namespace CityClickerGame
             CheckForAchivement(3);
         }
 
+        //Handling on/off music -------------------------------------------
         private void music_button_Click(object sender, RoutedEventArgs e)
         {
             if ((string)music_button.Content == "MUSIC")

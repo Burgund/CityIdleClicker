@@ -68,5 +68,185 @@ namespace CityClickerGame.Properties {
                 return ResourceManager.GetStream("Airglow___03___Electrifying_Landscape__online_audio_converter_com_", resourceCulture);
             }
         }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Falling down is the same as being hit by a planet.
+        /// </summary>
+        internal static string thought1 {
+            get {
+                return ResourceManager.GetString("thought1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu If apple made a car would it have windows?.
+        /// </summary>
+        internal static string thought10 {
+            get {
+                return ResourceManager.GetString("thought10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Shoes are just socks for your socks.
+        /// </summary>
+        internal static string thought11 {
+            get {
+                return ResourceManager.GetString("thought11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu The brain is the most important organ in the human body according to the brain.
+        /// </summary>
+        internal static string thought12 {
+            get {
+                return ResourceManager.GetString("thought12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu If you punch yourself and it hurts, are you strong or weak?.
+        /// </summary>
+        internal static string thought13 {
+            get {
+                return ResourceManager.GetString("thought13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu At one point you were the youngest person in the world.
+        /// </summary>
+        internal static string thought14 {
+            get {
+                return ResourceManager.GetString("thought14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu It takes 2 minuets for you to die, breathing resets the timer.
+        /// </summary>
+        internal static string thought15 {
+            get {
+                return ResourceManager.GetString("thought15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu If a tomato is a fruit is ketchup a smoothie?.
+        /// </summary>
+        internal static string thought16 {
+            get {
+                return ResourceManager.GetString("thought16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu If you sit on a Voodoo doll of yourself, would you ever be able to stand up?.
+        /// </summary>
+        internal static string thought17 {
+            get {
+                return ResourceManager.GetString("thought17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu If you spill a cleaning product do you make a mess?.
+        /// </summary>
+        internal static string thought18 {
+            get {
+                return ResourceManager.GetString("thought18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu If there was an earthquake on Mars, is it still an earthquake?.
+        /// </summary>
+        internal static string thought19 {
+            get {
+                return ResourceManager.GetString("thought19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu What if April 1st is actually a prank and its just March 32nd?.
+        /// </summary>
+        internal static string thought2 {
+            get {
+                return ResourceManager.GetString("thought2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu You’re being watched by your future self through memories.
+        /// </summary>
+        internal static string thought20 {
+            get {
+                return ResourceManager.GetString("thought20", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu A treehouse is just a tree carrying its dead friend.
+        /// </summary>
+        internal static string thought3 {
+            get {
+                return ResourceManager.GetString("thought3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Every single person in the world celebrates their birthday on the same year.
+        /// </summary>
+        internal static string thought4 {
+            get {
+                return ResourceManager.GetString("thought4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Isn’t fishing just a fishes version of being abducted by aliens?.
+        /// </summary>
+        internal static string thought5 {
+            get {
+                return ResourceManager.GetString("thought5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu When you read a dictionary every other book is just a remix.
+        /// </summary>
+        internal static string thought6 {
+            get {
+                return ResourceManager.GetString("thought6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Social anxiety is basically conspiracy theories about yourself.
+        /// </summary>
+        internal static string thought7 {
+            get {
+                return ResourceManager.GetString("thought7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu If Jesus could walk on water, could he swim on land?.
+        /// </summary>
+        internal static string thought8 {
+            get {
+                return ResourceManager.GetString("thought8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu If a human studies the brain, the brain is studying itself.
+        /// </summary>
+        internal static string thought9 {
+            get {
+                return ResourceManager.GetString("thought9", resourceCulture);
+            }
+        }
     }
 }

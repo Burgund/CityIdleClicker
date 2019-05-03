@@ -31,20 +31,31 @@ namespace CityClickerGame
         //Factory is a class for adding and changing hardcoded data
         Factory factory = new Factory();
         DispatcherTimer timer = new DispatcherTimer();
+        DispatcherTimer fiveMinutes = new DispatcherTimer();
         SoundPlayer player = new SoundPlayer();
         public Achivement[] achivementsArray = new Achivement[28];
         Technology[] technologiesArray = new Technology[28];
+        Random random = new Random();
         //backgroundsArrays contains all images for clickArea
         BackgroundImage[] backgroundsArray = new BackgroundImage[5];
+        //Shower thoughts list
+        List<string> thoughts = new List<string>();
 
         public MainWindow()
         {
             try
             {
+                //handling basic "each second" timer - earnings
                 timer.Tick += new EventHandler(ClockEvents);
                 timer.Interval = new TimeSpan(0, 0, 1);
                 timer.Start();
+                //handling "each 5 minutes" timer - events
+                fiveMinutes.Tick += new EventHandler(EachFiveMinutes);
+                fiveMinutes.Interval = new TimeSpan(0, 5, 0);
+                fiveMinutes.Start();
+
                 InitializeComponent();
+
                 //All Factory stuff - adding hardcoded data
                 factory.BuildObjectArray(buildings);
                 factory.BuildAchivementsArray(achivementsArray);
@@ -52,6 +63,8 @@ namespace CityClickerGame
                 factory.BuildWindowArrays(pricesTextBoxes, amountTextBlocks);
                 factory.BuildTechnologiesArray(technologiesArray);
                 factory.BuildBackgroundImagesArray(backgroundsArray);
+                thoughts = factory.BuildSowerThoughts();
+
                 //Initial music plays
                 MusicPlays();
             }
@@ -60,6 +73,12 @@ namespace CityClickerGame
                 System.Diagnostics.Debug.WriteLine("-----------------------------------------------------------------");
                 System.Diagnostics.Debug.WriteLine(e.Message);
             }
+        }
+
+        private void EachFiveMinutes(object sender, EventArgs e)
+        {
+            int index = random.Next(thoughts.Count);
+            showerThoughts.Text = thoughts[index];
         }
 
         private void ClockEvents(object sender, EventArgs e)

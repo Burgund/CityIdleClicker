@@ -178,5 +178,32 @@ namespace CityClickerGame
             images[3] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground5.png", UriKind.Relative)), 100000);
             images[4] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground6.png", UriKind.Relative)), 1000000);
         }
+
+        //Fills shower thoughts list
+        public List<string> BuildSowerThoughts()
+        {
+            List<string> thoughts = new List<string>();
+            thoughts.Add(Properties.Resources.thought1);
+            thoughts.Add(Properties.Resources.thought2);
+            thoughts.Add(Properties.Resources.thought3);
+            thoughts.Add(Properties.Resources.thought4);
+            thoughts.Add(Properties.Resources.thought5);
+            thoughts.Add(Properties.Resources.thought6);
+            thoughts.Add(Properties.Resources.thought7);
+            thoughts.Add(Properties.Resources.thought8);
+            thoughts.Add(Properties.Resources.thought9);
+            thoughts.Add(Properties.Resources.thought10);
+            thoughts.Add(Properties.Resources.thought11);
+            thoughts.Add(Properties.Resources.thought12);
+            thoughts.Add(Properties.Resources.thought13);
+            thoughts.Add(Properties.Resources.thought14);
+            thoughts.Add(Properties.Resources.thought15);
+            thoughts.Add(Properties.Resources.thought16);
+            thoughts.Add(Properties.Resources.thought17);
+            thoughts.Add(Properties.Resources.thought18);
+            thoughts.Add(Properties.Resources.thought19);
+            thoughts.Add(Properties.Resources.thought20);
+            return thoughts;
+        }
     }
 }

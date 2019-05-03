@@ -121,4 +121,64 @@
   <data name="Airglow___03___Electrifying_Landscape__online_audio_converter_com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\Airglow_-_03_-_Electrifying_Landscape (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="thought1" xml:space="preserve">
+    <value>Falling down is the same as being hit by a planet</value>
+  </data>
+  <data name="thought10" xml:space="preserve">
+    <value>If apple made a car would it have windows?</value>
+  </data>
+  <data name="thought11" xml:space="preserve">
+    <value>Shoes are just socks for your socks</value>
+  </data>
+  <data name="thought12" xml:space="preserve">
+    <value>The brain is the most important organ in the human body according to the brain</value>
+  </data>
+  <data name="thought13" xml:space="preserve">
+    <value>If you punch yourself and it hurts, are you strong or weak?</value>
+  </data>
+  <data name="thought14" xml:space="preserve">
+    <value>At one point you were the youngest person in the world</value>
+  </data>
+  <data name="thought15" xml:space="preserve">
+    <value>It takes 2 minuets for you to die, breathing resets the timer</value>
+  </data>
+  <data name="thought16" xml:space="preserve">
+    <value>If a tomato is a fruit is ketchup a smoothie?</value>
+  </data>
+  <data name="thought17" xml:space="preserve">
+    <value>If you sit on a Voodoo doll of yourself, would you ever be able to stand up?</value>
+  </data>
+  <data name="thought18" xml:space="preserve">
+    <value>If you spill a cleaning product do you make a mess?</value>
+  </data>
+  <data name="thought19" xml:space="preserve">
+    <value>If there was an earthquake on Mars, is it still an earthquake?</value>
+  </data>
+  <data name="thought2" xml:space="preserve">
+    <value>What if April 1st is actually a prank and its just March 32nd?</value>
+  </data>
+  <data name="thought20" xml:space="preserve">
+    <value>You’re being watched by your future self through memories</value>
+  </data>
+  <data name="thought3" xml:space="preserve">
+    <value>A treehouse is just a tree carrying its dead friend</value>
+  </data>
+  <data name="thought4" xml:space="preserve">
+    <value>Every single person in the world celebrates their birthday on the same year</value>
+  </data>
+  <data name="thought5" xml:space="preserve">
+    <value>Isn’t fishing just a fishes version of being abducted by aliens?</value>
+  </data>
+  <data name="thought6" xml:space="preserve">
+    <value>When you read a dictionary every other book is just a remix</value>
+  </data>
+  <data name="thought7" xml:space="preserve">
+    <value>Social anxiety is basically conspiracy theories about yourself</value>
+  </data>
+  <data name="thought8" xml:space="preserve">
+    <value>If Jesus could walk on water, could he swim on land?</value>
+  </data>
+  <data name="thought9" xml:space="preserve">
+    <value>If a human studies the brain, the brain is studying itself</value>
+  </data>
 </root>

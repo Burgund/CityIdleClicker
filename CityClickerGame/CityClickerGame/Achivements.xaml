@@ -38,6 +38,230 @@
         <Image x:Name="achivement26" HorizontalAlignment="Left" Height="100" Margin="481,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="Invent Nuclear Fission, Fusion and Atomic Theory"/>
         <Image x:Name="achivement27" HorizontalAlignment="Left" Height="100" Margin="598,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="Invent Satelites, Orbital Networks and Planet Engineering"/>
         <Image x:Name="achivement28" HorizontalAlignment="Left" Height="100" Margin="715,355,0,0" VerticalAlignment="Top" Width="100" Source="Resources/notavailable.jpg" Stretch="Fill" ToolTip="Invite Computers, Robotics, AI, Bioengineering and Neural Uploading"/>
+        <TextBlock x:Name="achivementName1" HorizontalAlignment="Left" Margin="10,94,0,0" TextWrapping="Wrap" Text="Focus" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName2" HorizontalAlignment="Left" Margin="128,94,0,0" TextWrapping="Wrap" Text="Curiostity" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName3" HorizontalAlignment="Left" Margin="245,94,0,0" TextWrapping="Wrap" Text="Gon on!" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName4" HorizontalAlignment="Left" Margin="363,94,0,0" TextWrapping="Wrap" Text="Louder!" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName5" HorizontalAlignment="Left" Margin="481,94,0,0" TextWrapping="Wrap" Text="Poor guy" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName6" HorizontalAlignment="Left" Margin="598,94,0,0" TextWrapping="Wrap" Text="Your first car!" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName7" HorizontalAlignment="Left" Margin="715,94,0,0" TextWrapping="Wrap" Text="Cream of the crop" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center" FontSize="11" Height="16">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName8" HorizontalAlignment="Left" Margin="10,208,0,0" TextWrapping="Wrap" Text="Businessman" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName9" HorizontalAlignment="Left" Margin="128,208,0,0" TextWrapping="Wrap" Text="Rockefeller, is it you?" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center" FontSize="10" Height="16">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName10" HorizontalAlignment="Left" Margin="245,208,0,0" TextWrapping="Wrap" Text="Golden Pepe apeared" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center" FontSize="9" Height="16">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName11" HorizontalAlignment="Left" Margin="363,208,0,0" TextWrapping="Wrap" Text="Wow!" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName12" HorizontalAlignment="Left" Margin="481,208,0,0" TextWrapping="Wrap" Text="Amazing!" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName13" HorizontalAlignment="Left" Margin="598,208,0,0" TextWrapping="Wrap" Text="Stahp!" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName14" HorizontalAlignment="Left" Margin="715,208,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName15" HorizontalAlignment="Left" Margin="10,323,0,0" TextWrapping="Wrap" Text="B" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName16" HorizontalAlignment="Left" Margin="128,323,0,0" TextWrapping="Wrap" Text="C" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName17" HorizontalAlignment="Left" Margin="245,323,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName18" HorizontalAlignment="Left" Margin="363,323,0,0" TextWrapping="Wrap" Text="Newbie" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName19" HorizontalAlignment="Left" Margin="481,323,0,0" TextWrapping="Wrap" Text="It's over 9000!!!11" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center" FontSize="11" Height="16">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName20" HorizontalAlignment="Left" Margin="598,323,0,0" TextWrapping="Wrap" Text="Global Elite" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName21" HorizontalAlignment="Left" Margin="715,323,0,0" TextWrapping="Wrap" Text="Motion defeated" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName22" HorizontalAlignment="Left" Margin="10,439,0,0" TextWrapping="Wrap" Text="What are you doing?!" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center" FontSize="9" Height="16">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName23" HorizontalAlignment="Left" Margin="128,439,0,0" TextWrapping="Wrap" Text="Geek" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName24" HorizontalAlignment="Left" Margin="245,439,0,0" TextWrapping="Wrap" Text="Ecologist" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName25" HorizontalAlignment="Left" Margin="363,439,0,0" TextWrapping="Wrap" Text="Wooosh" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName26" HorizontalAlignment="Left" Margin="481,439,0,0" TextWrapping="Wrap" Text="DEFCON 1" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName27" HorizontalAlignment="Left" Margin="598,439,0,0" TextWrapping="Wrap" Text="Sky is the limit" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock x:Name="achivementName28" HorizontalAlignment="Left" Margin="715,439,0,0" TextWrapping="Wrap" Text="Cyborg" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2B0038" Offset="0"/>
+                    <GradientStop Color="#FF7F00A4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
 
     </Grid>
 </Window>

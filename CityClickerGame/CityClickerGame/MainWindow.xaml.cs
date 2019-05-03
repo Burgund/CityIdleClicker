@@ -20,15 +20,21 @@ namespace CityClickerGame
 {
     public partial class MainWindow : Window
     {
+        //Wallet contains informations about basic and multiplied PPC, PPS and total money
         public Wallet wallet = new Wallet(1);
+        //All game objects (called "buildings") to buy and develop the city
         public CityObject[] buildings = new CityObject[16];
+        //All textboxes contains buildings prices
         TextBox[] pricesTextBoxes = new TextBox[16];
+        //All textblocks contains buildings amount
         TextBlock[] amountTextBlocks = new TextBlock[16];
+        //Factory is a class for adding and changing hardcoded data
         Factory factory = new Factory();
         DispatcherTimer timer = new DispatcherTimer();
         SoundPlayer player = new SoundPlayer();
         public Achivement[] achivementsArray = new Achivement[28];
         Technology[] technologiesArray = new Technology[28];
+        //backgroundsArrays contains all images for clickArea
         BackgroundImage[] backgroundsArray = new BackgroundImage[5];
 
         public MainWindow()
@@ -38,13 +44,15 @@ namespace CityClickerGame
                 timer.Tick += new EventHandler(ClockEvents);
                 timer.Interval = new TimeSpan(0, 0, 1);
                 timer.Start();
+                InitializeComponent();
+                //All Factory stuff - adding hardcoded data
                 factory.BuildObjectArray(buildings);
                 factory.BuildAchivementsArray(achivementsArray);
-                InitializeComponent();
                 factory.CreatePrices(buildings);
                 factory.BuildWindowArrays(pricesTextBoxes, amountTextBlocks);
                 factory.BuildTechnologiesArray(technologiesArray);
                 factory.BuildBackgroundImagesArray(backgroundsArray);
+                //Initial music plays
                 MusicPlays();
             }
             catch(Exception e)
@@ -56,13 +64,19 @@ namespace CityClickerGame
 
         private void ClockEvents(object sender, EventArgs e)
         {
+            //Following code is executed each second -------------------------------
+            //Add money (palms) per second and put current value into textblock
             wallet.AddMoney(wallet.GetRealMoneyPerSecond());
             moneyAmount.Text = Convert.ToString(wallet.TotalMoney);
+
+            //Checking if it's a time to change clickArea image
             CheckForClickArea();
 
+            //Update textblocks info about PPC and PPS
             ppsValueTextBlock.Text = Convert.ToString(wallet.GetRealMoneyPerSecond());
             ppcValueTextBlock.Text = Convert.ToString(Convert.ToInt64(wallet.GetRealMoneyPerClick()));
 
+            //Checking for achivements depending on total money in wallet
             if (wallet.TotalMoney >= 10000)
             {
                 CheckForAchivement(4);
@@ -94,6 +108,7 @@ namespace CityClickerGame
             }
         }
 
+        //Adding PPC to wallets total money when clickArea is clicked
         private void ClickArea_Click(object sender, RoutedEventArgs e)
         {
             wallet.AddMoney(Convert.ToUInt64(wallet.GetRealMoneyPerClick()));
@@ -104,6 +119,7 @@ namespace CityClickerGame
         {
             Button button = sender as Button;
             string name = button.Name;
+            //taking id from button to use it in buildingsArray
             int id = Convert.ToInt32(string.Join("", name.ToCharArray().Where(Char.IsDigit))) - 1;
             
             if(CheckForBuildingAvability(id))
@@ -115,6 +131,7 @@ namespace CityClickerGame
                 amountTextBlocks[id].Text = Convert.ToString(buildings[id].Amount);
                 wallet.AddMoneyPerClick(buildings[id].AddMPC);
 
+                //Checking for achivements ---------------------------------------------------
                 CheckForAchivement(10);
 
                 if (id == 15)
@@ -164,6 +181,7 @@ namespace CityClickerGame
             }
         }
 
+        //Handling music
         private void MusicPlays()
         {
             try

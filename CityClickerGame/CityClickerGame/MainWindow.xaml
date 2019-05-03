@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CityClickerGame"
         mc:Ignorable="d"
-        Title="SynthCity 1.2.1" Height="695.478" Width="1095">
+        Title="SynthCity 1.2.2" Height="695.478" Width="1095">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="Resources/background.jpg">

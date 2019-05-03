@@ -245,12 +245,12 @@ namespace CityClickerGame
 
         private void save_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.2.1");
+            MessageBox.Show("Not available in SynthCity alpha 1.2.2");
         }
 
         private void load_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.2.1");
+            MessageBox.Show("Not available in SynthCity alpha 1.2.2");
             CheckForAchivement(3);
         }
 

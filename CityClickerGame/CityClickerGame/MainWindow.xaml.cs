@@ -37,7 +37,7 @@ namespace CityClickerGame
         Technology[] technologiesArray = new Technology[28];
         Random random = new Random();
         //backgroundsArrays contains all images for clickArea
-        BackgroundImage[] backgroundsArray = new BackgroundImage[5];
+        BackgroundImage[] backgroundsArray = new BackgroundImage[8];
         //Shower thoughts list
         List<string> thoughts = new List<string>();
 

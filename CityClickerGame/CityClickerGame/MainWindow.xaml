@@ -427,7 +427,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Image x:Name="clickArea" HorizontalAlignment="Left" Height="528" Margin="9,9,0,0" VerticalAlignment="Top" Width="309" Source="Resources/clickAreaBackground1.png" MouseDown="ClickArea_Click"/>
+        <Image x:Name="clickArea" HorizontalAlignment="Left" Height="528" Margin="9,9,0,0" VerticalAlignment="Top" Width="309" Source="Resources/clickAreaBackground0.png" MouseDown="ClickArea_Click"/>
         <TextBlock x:Name="ppsTextBlock" HorizontalAlignment="Left" Margin="19,247,0,0" TextWrapping="Wrap" Text="PPS:" VerticalAlignment="Top" FontFamily="Visitor TT1 BRK" FontWeight="Bold" FontSize="18" TextDecorations="{x:Null}" FontStyle="Italic" Grid.Column="1" Foreground="#FFF975FF"/>
         <TextBlock x:Name="ppsValueTextBlock" HorizontalAlignment="Left" Margin="19,264,0,0" TextWrapping="Wrap" Text="0" Height="20" Width="126" LineHeight="6" FontSize="20" VerticalAlignment="Top" FontFamily="Visitor TT1 BRK" FontWeight="Bold" Background="#66FFFFFF" Grid.Column="1">
             <TextBlock.Foreground>

@@ -240,5 +240,10 @@
     <Resource Include="Resources\clickAreaBackground5.png" />
     <Resource Include="Resources\clickAreaBackground6.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\clickAreaBackground0.PNG" />
+    <Resource Include="Resources\clickAreaBackground7.png" />
+    <Resource Include="Resources\clickAreaBackground8.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

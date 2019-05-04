@@ -172,11 +172,14 @@ namespace CityClickerGame
         //Fills clickArea backgrounds array with images
         public void BuildBackgroundImagesArray(BackgroundImage[] images)
         {
-            images[0] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground2.png", UriKind.Relative)), 10);
-            images[1] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground3.png", UriKind.Relative)), 500);
-            images[2] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground4.png", UriKind.Relative)), 10000);
-            images[3] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground5.png", UriKind.Relative)), 100000);
-            images[4] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground6.png", UriKind.Relative)), 1000000);
+            images[0] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground1.png", UriKind.Relative)), 10);
+            images[1] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground2.png", UriKind.Relative)), 500);
+            images[2] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground3.png", UriKind.Relative)), 5000);
+            images[3] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground4.png", UriKind.Relative)), 50000);
+            images[4] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground5.png", UriKind.Relative)), 300000);
+            images[5] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground6.png", UriKind.Relative)), 1000000);
+            images[6] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground7.png", UriKind.Relative)), 5000000);
+            images[7] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground8.png", UriKind.Relative)), 10000000);
         }
 
         //Fills shower thoughts list

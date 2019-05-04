@@ -80,22 +80,22 @@ namespace CityClickerGame
         //Fills buildings array with hardcoded data
         public void BuildObjectArray(CityObject[] buildings)
         {
-            buildings[0] = new CityObject(100, 1, 0.1);
-            buildings[1] = new CityObject(600, 2, 0.2);
-            buildings[2] = new CityObject(1200, 5, 0.5);
-            buildings[3] = new CityObject(3000, 10, 1);
-            buildings[4] = new CityObject(8000, 25, 2.5);
-            buildings[5] = new CityObject(15000, 100, 4);
-            buildings[6] = new CityObject(100000, 900, 10);
-            buildings[7] = new CityObject(150000, 1200, 12);
-            buildings[8] = new CityObject(250000, 1600, 15);
-            buildings[9] = new CityObject(500000, 2500, 22);
-            buildings[10] = new CityObject(1000000, 4500, 40);
-            buildings[11] = new CityObject(5000000, 10000, 100);
-            buildings[12] = new CityObject(10000000, 15000, 140);
-            buildings[13] = new CityObject(50000000, 50000, 400);
-            buildings[14] = new CityObject(100000000, 100000, 600);
-            buildings[15] = new CityObject(1000000000, 2000000, 1000);
+            buildings[0] = new CityObject("hut", 100, 1, 0.1);
+            buildings[1] = new CityObject("house", 600, 2, 0.2);
+            buildings[2] = new CityObject("tenement house", 1200, 5, 0.5);
+            buildings[3] = new CityObject("high voltage lines", 3000, 10, 1);
+            buildings[4] = new CityObject("block of flats", 8000, 25, 2.5);
+            buildings[5] = new CityObject("residential", 15000, 100, 4);
+            buildings[6] = new CityObject("university", 100000, 900, 10);
+            buildings[7] = new CityObject("railstation", 150000, 1200, 12);
+            buildings[8] = new CityObject("manufactory", 250000, 1600, 15);
+            buildings[9] = new CityObject("nuclear power plant", 500000, 2500, 22);
+            buildings[10] = new CityObject("suspension bridge", 1000000, 4500, 40);
+            buildings[11] = new CityObject("airport", 5000000, 10000, 100);
+            buildings[12] = new CityObject("office park", 10000000, 15000, 140);
+            buildings[13] = new CityObject("space port", 50000000, 50000, 400);
+            buildings[14] = new CityObject("business park", 100000000, 100000, 600);
+            buildings[15] = new CityObject("business district", 1000000000, 2000000, 1000);
         }
 
         //Fills textboxes in MainWindow with prices

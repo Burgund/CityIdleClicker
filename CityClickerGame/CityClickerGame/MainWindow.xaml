@@ -24,7 +24,7 @@
             <ColumnDefinition Width="81*"/>
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="object1" HorizontalAlignment="Left" Margin="338,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object1" HorizontalAlignment="Left" Margin="338,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" ToolTip="Hut">
             <Image Source="Resources/object1.png"/>
         </Button>
 
@@ -37,7 +37,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object5" HorizontalAlignment="Left" Margin="338,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object5" HorizontalAlignment="Left" Margin="338,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" ToolTip="Block of flats">
             <Image Source="Resources/object5.png"/>
         </Button>
 
@@ -50,7 +50,8 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object9"  HorizontalAlignment="Left" Margin="338,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object9"  HorizontalAlignment="Left" Margin="338,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" ToolTip="Manufactory
+">
             <Image Source="Resources/object9.png"/>
         </Button>
 
@@ -63,7 +64,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object13" HorizontalAlignment="Left" Margin="338,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject">
+        <Button x:Name="object13" HorizontalAlignment="Left" Margin="338,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject" ToolTip="Office park">
             <Image Source="Resources/object13.PNG"/>
         </Button>
 
@@ -76,7 +77,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object2" HorizontalAlignment="Left" Margin="488,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object2" HorizontalAlignment="Left" Margin="488,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" ToolTip="House">
             <Image Source="Resources/object2.png"/>
         </Button>
 
@@ -89,7 +90,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object6" HorizontalAlignment="Left" Margin="488,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object6" HorizontalAlignment="Left" Margin="488,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" ToolTip="Residential">
             <Image Source="Resources/object6.PNG"/>
         </Button>
 
@@ -102,7 +103,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object10" HorizontalAlignment="Left" Margin="488,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object10" HorizontalAlignment="Left" Margin="488,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" ToolTip="Nuclear power plant">
             <Image Source="Resources/object10.png"/>
         </Button>
 
@@ -115,7 +116,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object14" HorizontalAlignment="Left" Margin="488,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject">
+        <Button x:Name="object14" HorizontalAlignment="Left" Margin="488,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject" ToolTip="Space port">
             <Image Source="Resources/object14.png"/>
         </Button>
 
@@ -128,7 +129,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object3" HorizontalAlignment="Left" Margin="639,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object3" HorizontalAlignment="Left" Margin="639,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" ToolTip="Tenement house">
             <Image Source="Resources/object3.png"/>
         </Button>
 
@@ -141,7 +142,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object7" HorizontalAlignment="Left" Margin="639,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object7" HorizontalAlignment="Left" Margin="639,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" ToolTip="University">
             <Image Source="Resources/object7.png"/>
         </Button>
 
@@ -154,7 +155,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object11" HorizontalAlignment="Left" Margin="639,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject">
+        <Button x:Name="object11" HorizontalAlignment="Left" Margin="639,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" ToolTip="Suspension bridge">
             <Image Source="Resources/object11.png"/>
         </Button>
 
@@ -167,7 +168,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object15" HorizontalAlignment="Left" Margin="639,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject">
+        <Button x:Name="object15" HorizontalAlignment="Left" Margin="639,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject" ToolTip="Business park">
             <Image Source="Resources/object15.PNG"/>
         </Button>
 
@@ -180,7 +181,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object4" HorizontalAlignment="Left" Margin="789,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
+        <Button x:Name="object4" HorizontalAlignment="Left" Margin="789,10,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2" ToolTip="High voltage lines">
             <Image Source="Resources/object4.png"/>
         </Button>
 
@@ -193,7 +194,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object8" HorizontalAlignment="Left" Margin="789,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
+        <Button x:Name="object8" HorizontalAlignment="Left" Margin="789,162,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2" ToolTip="Railstation">
             <Image Source="Resources/object8.png"/>
         </Button>
 
@@ -206,7 +207,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object12" HorizontalAlignment="Left" Margin="789,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2">
+        <Button x:Name="object12" HorizontalAlignment="Left" Margin="789,315,0,0" VerticalAlignment="Top" Width="127" Height="118" Click="BuyObject" Grid.ColumnSpan="2" ToolTip="Airport">
             <Image Source="Resources/object12.png"/>
         </Button>
 
@@ -219,7 +220,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="object16" HorizontalAlignment="Left" Margin="789,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject" Grid.ColumnSpan="2">
+        <Button x:Name="object16" HorizontalAlignment="Left" Margin="789,467,0,0" VerticalAlignment="Top" Width="127" Height="117" Click="BuyObject" Grid.ColumnSpan="2" ToolTip="Business district">
             <Image Source="Resources/object16.PNG"/>
         </Button>
 

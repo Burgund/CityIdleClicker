@@ -29,6 +29,14 @@ namespace CityClickerGame
             this.addMPC = mpc;
         }
 
+        public CityObject(string name, ulong price, ulong earnings, double mpc)
+        {
+            this.name = name;
+            this.earnings = earnings;
+            this.price = price;
+            this.addMPC = mpc;
+        }
+
         //When new object is buided, this function increases price of the next one
         public void IncreaseAmount()
         {

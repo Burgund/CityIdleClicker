@@ -247,12 +247,12 @@ namespace CityClickerGame
         //Save-load handling ---------------------------------------------------
         private void save_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.2.4");
+            CallMessageWindow("Not available in SynthCity alpha 1.2.4");
         }
 
         private void load_button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Not available in SynthCity alpha 1.2.4");
+            CallMessageWindow("Not available in SynthCity alpha 1.2.4");
             CheckForAchivement(3);
         }
 
@@ -304,7 +304,7 @@ namespace CityClickerGame
                 {
                     if (!technologiesArray[1].IsInvented)
                     {
-                        MessageBox.Show("You have no technology to build this! You need " + technologiesArray[1].Name);
+                        CallMessageWindow("You have no technology to build this! You need " + technologiesArray[1].Name);
                         return false;
                     }
                 }
@@ -313,7 +313,7 @@ namespace CityClickerGame
                 {
                     if(!technologiesArray[2].IsInvented)
                     {
-                        MessageBox.Show("You have no technology to build this! You need " + technologiesArray[2].Name);
+                        CallMessageWindow("You have no technology to build this! You need " + technologiesArray[2].Name);
                         return false;
                     }
                 }
@@ -322,7 +322,7 @@ namespace CityClickerGame
                 {
                     if (!technologiesArray[6].IsInvented)
                     {
-                        MessageBox.Show("You have no technology to build this! You need " + technologiesArray[6].Name);
+                        CallMessageWindow("You have no technology to build this! You need " + technologiesArray[6].Name);
                         return false;
                     }
                 }
@@ -331,7 +331,7 @@ namespace CityClickerGame
                 {
                     if (!technologiesArray[9].IsInvented)
                     {
-                        MessageBox.Show("You have no technology to build this! You need " + technologiesArray[9].Name);
+                        CallMessageWindow("You have no technology to build this! You need " + technologiesArray[9].Name);
                         return false;
                     }
                 }
@@ -340,7 +340,7 @@ namespace CityClickerGame
                 {
                     if (!technologiesArray[25].IsInvented)
                     {
-                        MessageBox.Show("You have no technology to build this! You need " + technologiesArray[25].Name);
+                        CallMessageWindow("You have no technology to build this! You need " + technologiesArray[25].Name);
                         return false;
                     }
                 }
@@ -349,7 +349,7 @@ namespace CityClickerGame
                 {
                     if (!technologiesArray[26].IsInvented)
                     {
-                        MessageBox.Show("You have no technology to build this! You need " + technologiesArray[26].Name);
+                        CallMessageWindow("You have no technology to build this! You need " + technologiesArray[26].Name);
                         return false;
                     }
                 }
@@ -360,14 +360,14 @@ namespace CityClickerGame
                 }
                 else
                 {
-                    MessageBox.Show("Not enough money!");
+                    CallMessageWindow("Not enough money!");
                     CheckForAchivement(20);
                     return false;
                 }
             }
             else
             {
-                MessageBox.Show("Not available! You have to have at least one " + buildings[id-1].Name);
+                CallMessageWindow("Not available! You have to have at least one " + buildings[id - 1].Name);
                 return false;
             }
         }
@@ -385,6 +385,13 @@ namespace CityClickerGame
                     }
                 }
             }
+        }
+
+        public void CallMessageWindow(string message)
+        {
+            MessageWindow mw = new MessageWindow(message);
+            mw.Owner = this;
+            mw.Show();
         }
     }
 }

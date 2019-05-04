@@ -437,7 +437,7 @@ namespace CityClickerGame
 
             if(((MainWindow)this.Owner).CheckMoney() < technologies[id].Price)
             {
-                MessageBox.Show("You dont have enough money! " + technologies[id].Name + " price is " + technologies[id].Price);
+                ((MainWindow)this.Owner).CallMessageWindow("You dont have enough money! " + technologies[id].Name + " price is " + technologies[id].Price);
                 return false;
             }
 

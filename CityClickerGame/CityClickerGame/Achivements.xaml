@@ -110,7 +110,7 @@
                 </LinearGradientBrush>
             </TextBlock.Foreground>
         </TextBlock>
-        <TextBlock x:Name="achivementName10" HorizontalAlignment="Left" Margin="245,208,0,0" TextWrapping="Wrap" Text="Golden Pepe apeared" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center" FontSize="9" Height="16">
+        <TextBlock x:Name="achivementName10" HorizontalAlignment="Left" Margin="245,208,0,0" TextWrapping="Wrap" Text="Golden Pepe" VerticalAlignment="Top" Background="#66FFFFFF" Width="100" FontWeight="Bold" TextAlignment="Center" FontSize="11" Height="16">
             <TextBlock.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF2B0038" Offset="0"/>

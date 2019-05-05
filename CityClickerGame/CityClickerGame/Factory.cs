@@ -56,7 +56,7 @@ namespace CityClickerGame
             achivements[6] = new Achivement("Cream of the crop", "Collect 1000000000 (milliard palms)", 7);
             achivements[7] = new Achivement("Businessman", "Collect 1000000000000 (billion palms)", 8);
             achivements[8] = new Achivement("Rockefeller, is it you?", "Collect 1000000000000000 (billiard palms)", 9);
-            achivements[9] = new Achivement("Golden Pepe apeared", "Collect 1000000000000000000 (Trillion palms)", 10);
+            achivements[9] = new Achivement("Golden Pepe", "Collect 1000000000000000000 (Trillion palms)", 10);
             achivements[10] = new Achivement("Wow!", "Build your first building", 11);
             achivements[11] = new Achivement("Amazing!", "Build the most expensive building", 12);
             achivements[12] = new Achivement("Stahp!", "Have at least 100 buildings of whichever kind", 13);

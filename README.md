@@ -10,7 +10,8 @@ Things that will be changed:</br>
 -technologies graphic design</br>
 -add random events (which are still not implemented!)</br>
 -Save/Load the game (which are still not implemented!)</br>
--"MessageBox" which is currently used in many places (like "achivement unlocked" or "you dont have enough money") will be changed into dedicated WPF window</br>
+-"MessageBox" which is currently used in some places (like "you dont have enough money") and will be changed into dedicated WPF window</br>
+-Visitor font is not available in windows 7 (status for others OS is unknown), will be added to game package in beta version. Note that this bug is known and some layouts/graphics bugs may ensue because of font lack</br>
 </br>
 TODO:</br>
 -Add a posibility to save the game</br>

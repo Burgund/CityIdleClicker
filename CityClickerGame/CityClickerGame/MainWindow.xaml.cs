@@ -247,12 +247,12 @@ namespace CityClickerGame
         //Save-load handling ---------------------------------------------------
         private void save_button_Click(object sender, RoutedEventArgs e)
         {
-            CallMessageWindow("Not available in SynthCity alpha 1.2.4");
+            CallMessageWindow("Not available in SynthCity alpha 1.2.5");
         }
 
         private void load_button_Click(object sender, RoutedEventArgs e)
         {
-            CallMessageWindow("Not available in SynthCity alpha 1.2.4");
+            CallMessageWindow("Not available in SynthCity alpha 1.2.5");
             CheckForAchivement(3);
         }
 

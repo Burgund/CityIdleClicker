@@ -13,8 +13,8 @@
         <Grid.Background>
             <ImageBrush ImageSource="Resources/background.jpg"/>
         </Grid.Background>
-        <Image x:Name="technology1" HorizontalAlignment="Left" Height="100" Margin="11,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Electricity [+1% PPS]" MouseDown="InventElectricity"/>
-        <Image x:Name="technology2" HorizontalAlignment="Left" Height="100" Margin="129,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Electronics [Unlocks energy lines]" MouseDown="InventElectronics"/>
+        <Image x:Name="technology1" HorizontalAlignment="Left" Height="100" Margin="11,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Electricity [Unlocks energy lines]" MouseDown="InventElectricity"/>
+        <Image x:Name="technology2" HorizontalAlignment="Left" Height="100" Margin="129,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Electronics [+1% PPS]" MouseDown="InventElectronics"/>
         <Image x:Name="technology3" HorizontalAlignment="Left" Height="100" Margin="246,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Railroad [Unlocks railstations]" MouseDown="InventRailroad"/>
         <Image x:Name="technology4" HorizontalAlignment="Left" Height="100" Margin="364,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Atomic theory [+2% PPS]" MouseDown="InventAtomicTheory"/>
         <Image x:Name="technology5" HorizontalAlignment="Left" Height="100" Margin="482,12,0,0" VerticalAlignment="Top" Width="100" Source="Resources/uninventedTest.jpg" Stretch="Fill" ToolTip="Computers [+2% PPS and +2% PPC]" MouseDown="InventComputers"/>

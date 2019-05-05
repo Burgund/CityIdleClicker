@@ -37,7 +37,7 @@ namespace CityClickerGame
             this.addMPC = mpc;
         }
 
-        //When new object is buided, this function increases price of the next one
+        //When new object is built, this function increases price of the next one
         public void IncreaseAmount()
         {
             ulong increase = Convert.ToUInt64(Convert.ToDouble(price) * 0.2);

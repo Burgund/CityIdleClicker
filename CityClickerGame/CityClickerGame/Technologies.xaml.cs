@@ -72,7 +72,6 @@ namespace CityClickerGame
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[0].Price);
                 this.technology1.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
-                ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.01);
                 technologies[0].IsInvented = true;
             }
         }
@@ -83,6 +82,7 @@ namespace CityClickerGame
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[1].Price);
                 this.technology2.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.01);
                 technologies[1].IsInvented = true;
             }
         }

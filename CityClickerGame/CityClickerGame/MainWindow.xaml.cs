@@ -302,7 +302,7 @@ namespace CityClickerGame
             {
                 if(id == 3)
                 {
-                    if (!technologiesArray[1].IsInvented)
+                    if (!technologiesArray[0].IsInvented)
                     {
                         CallMessageWindow("You have no technology to build this! You need " + technologiesArray[1].Name);
                         return false;

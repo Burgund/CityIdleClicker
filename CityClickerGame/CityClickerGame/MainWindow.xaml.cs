@@ -248,6 +248,8 @@ namespace CityClickerGame
         private void save_button_Click(object sender, RoutedEventArgs e)
         {
             CallMessageWindow("Not available in SynthCity alpha 1.2.5");
+            Saver saver = new Saver(buildings, achivementsArray, technologiesArray, wallet);
+            saver.SaveGame();
         }
 
         private void load_button_Click(object sender, RoutedEventArgs e)

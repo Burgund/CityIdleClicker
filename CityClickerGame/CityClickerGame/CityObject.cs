@@ -21,6 +21,7 @@ namespace CityClickerGame
         public string Name { get => name; }
         public ulong Earnings { get => earnings; }
         public double AddMPC { get => addMPC; }
+        public double Multiplier { get => multiplier; set => multiplier = value; }
 
         public CityObject(ulong price, ulong earnings, double mpc)
         {
@@ -56,13 +57,13 @@ namespace CityClickerGame
         //Increases earnings multiplier (can be done by technologies) 
         public void IncreaseMultiplier(double multiplier)
         {
-            this.multiplier += multiplier;
+            this.Multiplier += multiplier;
         }
 
         //Returns earnings including the multiplier
         public ulong GetRealEarnings()
         {
-            return Convert.ToUInt64((double)earnings * multiplier);
+            return Convert.ToUInt64((double)earnings * Multiplier);
         }
     }
 }

@@ -89,6 +89,7 @@
     <Compile Include="MessageWindow.xaml.cs">
       <DependentUpon>MessageWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Saver.cs" />
     <Compile Include="Technologies.xaml.cs">
       <DependentUpon>Technologies.xaml</DependentUpon>
     </Compile>

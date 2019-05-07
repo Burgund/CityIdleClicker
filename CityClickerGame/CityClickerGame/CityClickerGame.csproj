@@ -254,5 +254,67 @@
     <Resource Include="Resources\clickAreaBackground7.png" />
     <Resource Include="Resources\clickAreaBackground8.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\tech01.PNG" />
+    <Resource Include="Resources\tech03.PNG" />
+    <Resource Include="Resources\tech04.PNG" />
+    <Resource Include="Resources\tech05.PNG" />
+    <Resource Include="Resources\tech06.PNG" />
+    <Resource Include="Resources\tech07.PNG" />
+    <Resource Include="Resources\tech08.PNG" />
+    <Resource Include="Resources\tech09.PNG" />
+    <Resource Include="Resources\tech10.PNG" />
+    <Resource Include="Resources\tech11.PNG" />
+    <Resource Include="Resources\tech12.PNG" />
+    <Resource Include="Resources\tech13.PNG" />
+    <Resource Include="Resources\tech15.PNG" />
+    <Resource Include="Resources\tech16.PNG" />
+    <Resource Include="Resources\tech17.PNG" />
+    <Resource Include="Resources\tech18.PNG" />
+    <Resource Include="Resources\tech19.PNG" />
+    <Resource Include="Resources\tech20.PNG" />
+    <Resource Include="Resources\tech21.PNG" />
+    <Resource Include="Resources\tech22.PNG" />
+    <Resource Include="Resources\tech23.PNG" />
+    <Resource Include="Resources\tech24.PNG" />
+    <Resource Include="Resources\tech25.PNG" />
+    <Resource Include="Resources\tech26.PNG" />
+    <Resource Include="Resources\tech27.PNG" />
+    <Resource Include="Resources\tech28.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\tech02.png" />
+    <Resource Include="Resources\tech14.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\tech01U.png" />
+    <Resource Include="Resources\tech02U.png" />
+    <Resource Include="Resources\tech03U.png" />
+    <Resource Include="Resources\tech04U.png" />
+    <Resource Include="Resources\tech05U.png" />
+    <Resource Include="Resources\tech06U.png" />
+    <Resource Include="Resources\tech07U.png" />
+    <Resource Include="Resources\tech08U.png" />
+    <Resource Include="Resources\tech09U.png" />
+    <Resource Include="Resources\tech10U.png" />
+    <Resource Include="Resources\tech11U.png" />
+    <Resource Include="Resources\tech12U.png" />
+    <Resource Include="Resources\tech13U.png" />
+    <Resource Include="Resources\tech14U.png" />
+    <Resource Include="Resources\tech15U.png" />
+    <Resource Include="Resources\tech16U.png" />
+    <Resource Include="Resources\tech17U.png" />
+    <Resource Include="Resources\tech18U.png" />
+    <Resource Include="Resources\tech19U.png" />
+    <Resource Include="Resources\tech20U.png" />
+    <Resource Include="Resources\tech21U.png" />
+    <Resource Include="Resources\tech22U.png" />
+    <Resource Include="Resources\tech23U.png" />
+    <Resource Include="Resources\tech24U.png" />
+    <Resource Include="Resources\tech25U.png" />
+    <Resource Include="Resources\tech26U.png" />
+    <Resource Include="Resources\tech27U.png" />
+    <Resource Include="Resources\tech28U.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

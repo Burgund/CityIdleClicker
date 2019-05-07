@@ -247,14 +247,13 @@ namespace CityClickerGame
         //Save-load handling ---------------------------------------------------
         private void save_button_Click(object sender, RoutedEventArgs e)
         {
-            CallMessageWindow("Not available in SynthCity alpha 1.2.5");
+            CallMessageWindow("Saved successfully!");
             Saver saver = new Saver(buildings, achivementsArray, technologiesArray, wallet);
             saver.SaveGame();
         }
 
         private void load_button_Click(object sender, RoutedEventArgs e)
         {
-            CallMessageWindow("Not available in SynthCity alpha 1.2.5");
             Loader loader = new Loader(buildings, achivementsArray, technologiesArray);
             loader.LoadFile();
             loader.LoadData(buildings, achivementsArray, technologiesArray);

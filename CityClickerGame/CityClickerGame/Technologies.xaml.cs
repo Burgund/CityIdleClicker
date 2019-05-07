@@ -71,7 +71,7 @@ namespace CityClickerGame
             if(CheckForAvability(0))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[0].Price);
-                this.technology1.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(1);
                 technologies[0].IsInvented = true;
             }
         }
@@ -81,7 +81,7 @@ namespace CityClickerGame
             if (CheckForAvability(1))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[1].Price);
-                this.technology2.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(2);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.01);
                 technologies[1].IsInvented = true;
             }
@@ -92,7 +92,7 @@ namespace CityClickerGame
             if (CheckForAvability(2))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[2].Price);
-                this.technology3.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(3);
                 technologies[2].IsInvented = true;
                 if(technologies[19].IsInvented)
                 {
@@ -106,7 +106,7 @@ namespace CityClickerGame
             if (CheckForAvability(3))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[3].Price);
-                this.technology4.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(4);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.02);
                 technologies[3].IsInvented = true;
                 if (technologies[6].IsInvented && technologies[11].IsInvented)
@@ -121,7 +121,7 @@ namespace CityClickerGame
             if (CheckForAvability(4))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[4].Price);
-                this.technology5.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(5);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.02);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.02);
                 technologies[4].IsInvented = true;
@@ -137,7 +137,7 @@ namespace CityClickerGame
             if (CheckForAvability(5))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[5].Price);
-                this.technology6.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(6);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.03);
                 technologies[5].IsInvented = true;
                 CheckForAchivement(23);
@@ -149,7 +149,7 @@ namespace CityClickerGame
             if (CheckForAvability(6))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[6].Price);
-                this.technology7.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(7);
                 technologies[6].IsInvented = true;
                 if (technologies[3].IsInvented && technologies[11].IsInvented)
                 {
@@ -163,7 +163,7 @@ namespace CityClickerGame
             if (CheckForAvability(7))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[7].Price);
-                this.technology8.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(8);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.03);
                 technologies[7].IsInvented = true;
             }
@@ -174,7 +174,7 @@ namespace CityClickerGame
             if (CheckForAvability(8))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[8].Price);
-                this.technology9.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(9);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.05);
                 technologies[8].IsInvented = true;
                 if (technologies[4].IsInvented && technologies[16].IsInvented && technologies[21].IsInvented && technologies[27].IsInvented)
@@ -189,7 +189,7 @@ namespace CityClickerGame
             if (CheckForAvability(9))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[9].Price);
-                this.technology10.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(10);
                 technologies[9].IsInvented = true;
                 if (technologies[14].IsInvented && technologies[26].IsInvented)
                 {
@@ -203,7 +203,7 @@ namespace CityClickerGame
             if (CheckForAvability(10))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[10].Price);
-                this.technology11.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(11);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.02);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.05);
                 technologies[10].IsInvented = true;
@@ -215,7 +215,7 @@ namespace CityClickerGame
             if (CheckForAvability(11))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[11].Price);
-                this.technology12.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(12);
                 ((MainWindow)this.Owner).buildings[9].IncreaseMultiplier(1);
                 technologies[11].IsInvented = true;
                 if (technologies[3].IsInvented && technologies[6].IsInvented)
@@ -230,7 +230,7 @@ namespace CityClickerGame
             if (CheckForAvability(12))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[12].Price);
-                this.technology13.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(13);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.05);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.05);
                 technologies[12].IsInvented = true;
@@ -242,7 +242,7 @@ namespace CityClickerGame
             if (CheckForAvability(13))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[13].Price);
-                this.technology14.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(14);
                 ((MainWindow)this.Owner).buildings[7].IncreaseMultiplier(1);
                 technologies[13].IsInvented = true;
             }
@@ -253,7 +253,7 @@ namespace CityClickerGame
             if (CheckForAvability(14))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[14].Price);
-                this.technology15.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(15);
                 ((MainWindow)this.Owner).buildings[13].IncreaseMultiplier(1);
                 technologies[14].IsInvented = true;
                 if (technologies[9].IsInvented && technologies[26].IsInvented)
@@ -268,7 +268,7 @@ namespace CityClickerGame
             if (CheckForAvability(15))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[15].Price);
-                this.technology16.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(16);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.05);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.05);
                 technologies[15].IsInvented = true;
@@ -280,7 +280,7 @@ namespace CityClickerGame
             if (CheckForAvability(16))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[16].Price);
-                this.technology17.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(17);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.06);
                 technologies[16].IsInvented = true;
                 if (technologies[4].IsInvented && technologies[8].IsInvented && technologies[21].IsInvented && technologies[27].IsInvented)
@@ -295,7 +295,7 @@ namespace CityClickerGame
             if (CheckForAvability(17))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[17].Price);
-                this.technology18.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(18);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.06);
                 technologies[17].IsInvented = true;
             }
@@ -306,7 +306,7 @@ namespace CityClickerGame
             if (CheckForAvability(18))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[18].Price);
-                this.technology19.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(19);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.05);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.05);
                 technologies[18].IsInvented = true;
@@ -318,7 +318,7 @@ namespace CityClickerGame
             if (CheckForAvability(19))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[19].Price);
-                this.technology20.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(20);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.1);
                 technologies[19].IsInvented = true;
                 if (technologies[1].IsInvented)
@@ -333,7 +333,7 @@ namespace CityClickerGame
             if (CheckForAvability(20))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[20].Price);
-                this.technology21.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(21);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.1);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.1);
                 //<TODO> overpopulation
@@ -346,7 +346,7 @@ namespace CityClickerGame
             if (CheckForAvability(21))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[21].Price);
-                this.technology22.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(22);
                 //<TODO> random events for biotechnology here
                 technologies[21].IsInvented = true;
                 if (technologies[4].IsInvented && technologies[8].IsInvented && technologies[16].IsInvented && technologies[27].IsInvented)
@@ -361,7 +361,7 @@ namespace CityClickerGame
             if (CheckForAvability(22))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[22].Price);
-                this.technology23.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(23);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(0.2);
                 technologies[22].IsInvented = true;
             }
@@ -372,7 +372,7 @@ namespace CityClickerGame
             if (CheckForAvability(23))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[23].Price);
-                this.technology24.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(24);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerSecond(0.2);
                 technologies[23].IsInvented = true;
             }
@@ -383,7 +383,7 @@ namespace CityClickerGame
             if (CheckForAvability(24))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[24].Price);
-                this.technology25.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(25);
                 //<TODO> protect from random events from Hyper Computing
                 technologies[24].IsInvented = true;
             }
@@ -394,7 +394,7 @@ namespace CityClickerGame
             if (CheckForAvability(25))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[25].Price);
-                this.technology26.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(26);
                 technologies[25].IsInvented = true;
             }
         }
@@ -404,7 +404,7 @@ namespace CityClickerGame
             if (CheckForAvability(26))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[26].Price);
-                this.technology27.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(27);
                 technologies[26].IsInvented = true;
                 if (technologies[14].IsInvented && technologies[9].IsInvented)
                 {
@@ -418,7 +418,7 @@ namespace CityClickerGame
             if (CheckForAvability(27))
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[27].Price);
-                this.technology28.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                SetInvented(28);
                 ((MainWindow)this.Owner).wallet.AddMultiplierPerClick(1);
                 technologies[27].IsInvented = true;
                 if (technologies[4].IsInvented && technologies[8].IsInvented && technologies[16].IsInvented && technologies[21].IsInvented)
@@ -449,88 +449,88 @@ namespace CityClickerGame
             switch (number)
             {
                 case 1:
-                    this.technology1.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology1.Source = new BitmapImage(new Uri("Resources/tech01.PNG", UriKind.Relative));
                     break;
                 case 2:
-                    this.technology2.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology2.Source = new BitmapImage(new Uri("Resources/tech02.PNG", UriKind.Relative));
                     break;
                 case 3:
-                    this.technology3.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology3.Source = new BitmapImage(new Uri("Resources/tech03.PNG", UriKind.Relative));
                     break;
                 case 4:
-                    this.technology4.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology4.Source = new BitmapImage(new Uri("Resources/tech04.PNG", UriKind.Relative));
                     break;
                 case 5:
-                    this.technology5.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology5.Source = new BitmapImage(new Uri("Resources/tech05.PNG", UriKind.Relative));
                     break;
                 case 6:
-                    this.technology6.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology6.Source = new BitmapImage(new Uri("Resources/tech06.PNG", UriKind.Relative));
                     break;
                 case 7:
-                    this.technology7.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology7.Source = new BitmapImage(new Uri("Resources/tech07.PNG", UriKind.Relative));
                     break;
                 case 8:
-                    this.technology8.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology8.Source = new BitmapImage(new Uri("Resources/tech08.PNG", UriKind.Relative));
                     break;
                 case 9:
-                    this.technology9.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology9.Source = new BitmapImage(new Uri("Resources/tech09.PNG", UriKind.Relative));
                     break;
                 case 10:
-                    this.technology10.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology10.Source = new BitmapImage(new Uri("Resources/tech10.PNG", UriKind.Relative));
                     break;
                 case 11:
-                    this.technology11.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology11.Source = new BitmapImage(new Uri("Resources/tech11.PNG", UriKind.Relative));
                     break;
                 case 12:
-                    this.technology12.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology12.Source = new BitmapImage(new Uri("Resources/tech12.PNG", UriKind.Relative));
                     break;
                 case 13:
-                    this.technology13.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology13.Source = new BitmapImage(new Uri("Resources/tech13.PNG", UriKind.Relative));
                     break;
                 case 14:
-                    this.technology14.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology14.Source = new BitmapImage(new Uri("Resources/tech14.PNG", UriKind.Relative));
                     break;
                 case 15:
-                    this.technology15.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology15.Source = new BitmapImage(new Uri("Resources/tech15.PNG", UriKind.Relative));
                     break;
                 case 16:
-                    this.technology16.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology16.Source = new BitmapImage(new Uri("Resources/tech16.PNG", UriKind.Relative));
                     break;
                 case 17:
-                    this.technology17.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology17.Source = new BitmapImage(new Uri("Resources/tech17.PNG", UriKind.Relative));
                     break;
                 case 18:
-                    this.technology18.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology18.Source = new BitmapImage(new Uri("Resources/tech18.PNG", UriKind.Relative));
                     break;
                 case 19:
-                    this.technology19.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology19.Source = new BitmapImage(new Uri("Resources/tech19.PNG", UriKind.Relative));
                     break;
                 case 20:
-                    this.technology20.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology20.Source = new BitmapImage(new Uri("Resources/tech20.PNG", UriKind.Relative));
                     break;
                 case 21:
-                    this.technology21.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology21.Source = new BitmapImage(new Uri("Resources/tech21.PNG", UriKind.Relative));
                     break;
                 case 22:
-                    this.technology22.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology22.Source = new BitmapImage(new Uri("Resources/tech22.PNG", UriKind.Relative));
                     break;
                 case 23:
-                    this.technology23.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology23.Source = new BitmapImage(new Uri("Resources/tech23.PNG", UriKind.Relative));
                     break;
                 case 24:
-                    this.technology24.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology24.Source = new BitmapImage(new Uri("Resources/tech24.PNG", UriKind.Relative));
                     break;
                 case 25:
-                    this.technology25.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology25.Source = new BitmapImage(new Uri("Resources/tech25.PNG", UriKind.Relative));
                     break;
                 case 26:
-                    this.technology26.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology26.Source = new BitmapImage(new Uri("Resources/tech26.PNG", UriKind.Relative));
                     break;
                 case 27:
-                    this.technology27.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology27.Source = new BitmapImage(new Uri("Resources/tech27.PNG", UriKind.Relative));
                     break;
                 case 28:
-                    this.technology28.Source = new BitmapImage(new Uri("Resources/inventedTest.jpg", UriKind.Relative));
+                    this.technology28.Source = new BitmapImage(new Uri("Resources/tech28.PNG", UriKind.Relative));
                     break;
             }
         }

@@ -14,9 +14,9 @@ namespace CityClickerGame
         private double multiplierPerSecond = 1;
         private double multiplierPerClick = 1;
 
-        public ulong MoneyPerSecond { get => moneyPerSecond; }
-        public ulong TotalMoney { get => totalMoney; }
-        public double MoneyPerClick { get => moneyPerClick; }
+        public ulong MoneyPerSecond { get => moneyPerSecond; set => moneyPerSecond = value; }
+        public ulong TotalMoney { get => totalMoney; set => totalMoney = value; }
+        public double MoneyPerClick { get => moneyPerClick; set => moneyPerClick = value; }
         public double MultiplierPerSecond { get => multiplierPerSecond; set => multiplierPerSecond = value; }
         public double MultiplierPerClick { get => multiplierPerClick; set => multiplierPerClick = value; }
 

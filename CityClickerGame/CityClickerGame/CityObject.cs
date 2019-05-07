@@ -16,10 +16,10 @@ namespace CityClickerGame
         private double addMPC = 0;
         private double multiplier = 1;
 
-        public ulong Price { get => price; }
-        public int Amount { get => amount; }
+        public ulong Price { get => price; set => price = value; }
+        public int Amount { get => amount; set => amount = value; }
         public string Name { get => name; }
-        public ulong Earnings { get => earnings; }
+        public ulong Earnings { get => earnings; set => earnings = value; }
         public double AddMPC { get => addMPC; }
         public double Multiplier { get => multiplier; set => multiplier = value; }
 

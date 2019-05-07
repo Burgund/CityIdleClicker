@@ -255,6 +255,10 @@ namespace CityClickerGame
         private void load_button_Click(object sender, RoutedEventArgs e)
         {
             CallMessageWindow("Not available in SynthCity alpha 1.2.5");
+            Loader loader = new Loader(buildings, achivementsArray, technologiesArray);
+            loader.LoadFile();
+            loader.LoadData(buildings, achivementsArray, technologiesArray);
+            loader.BuildLoadedBuildings(buildings);
             CheckForAchivement(3);
         }
 

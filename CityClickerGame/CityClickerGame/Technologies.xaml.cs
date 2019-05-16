@@ -384,7 +384,6 @@ namespace CityClickerGame
             {
                 ((MainWindow)this.Owner).wallet.SubstractMoney(technologies[24].Price);
                 SetInvented(25);
-                //<TODO> protect from random events from Hyper Computing
                 technologies[24].IsInvented = true;
             }
         }

@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace CityClickerGame
 {
@@ -12,7 +13,7 @@ namespace CityClickerGame
         CityObject[] buildings = new CityObject[16];
         Achivement[] achivementsArray = new Achivement[28];
         Technology[] technologiesArray = new Technology[28];
-        string path = Directory.GetCurrentDirectory() + "\\SynthCitySave.txt";
+        string path = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\SynthCitySave.txt";
         string convertedBuildings;
         string convertedAchivements;
         string convertedTechnologies;
@@ -27,19 +28,26 @@ namespace CityClickerGame
 
         public void LoadFile()
         {
-            if (File.Exists(path))
+            try
             {
-                string loadedData = File.ReadAllText(path);
-                string[] lines = loadedData.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
-                convertedBuildings = lines[0];
-                convertedTechnologies = lines[1];
-                convertedAchivements = lines[2];
-                convertedWallet = lines[3];
+                if (File.Exists(path))
+                {
+                    string loadedData = File.ReadAllText(path);
+                    string[] lines = loadedData.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+                    convertedBuildings = lines[0];
+                    convertedTechnologies = lines[1];
+                    convertedAchivements = lines[2];
+                    convertedWallet = lines[3];
+                }
+                else
+                {
+                    MessageWindow mw = new MessageWindow("None save has been found!");
+                    mw.Show();
+                }
             }
-            else
+            catch(Exception e)
             {
-                MessageWindow mw = new MessageWindow("None save has been found!");
-                mw.Show();
+                MessageBox.Show(e.Message);
             }
         }
 

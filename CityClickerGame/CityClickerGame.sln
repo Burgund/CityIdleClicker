@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityClickerGame", "CityClickerGame\CityClickerGame.csproj", "{C7CC8071-273C-4B64-AE6C-EE336487C578}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynthCity", "CityClickerGame\SynthCity.csproj", "{C7CC8071-273C-4B64-AE6C-EE336487C578}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SynthCity_1.3.0", "SynthCity_setup\SynthCity_setup.vdproj", "{8051DDF1-4E17-4D5C-B363-E3F35D5EA858}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{C7CC8071-273C-4B64-AE6C-EE336487C578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7CC8071-273C-4B64-AE6C-EE336487C578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7CC8071-273C-4B64-AE6C-EE336487C578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8051DDF1-4E17-4D5C-B363-E3F35D5EA858}.Debug|Any CPU.ActiveCfg = Debug
+		{8051DDF1-4E17-4D5C-B363-E3F35D5EA858}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

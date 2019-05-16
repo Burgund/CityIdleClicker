@@ -55,6 +55,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -85,11 +86,21 @@
     <Compile Include="Credits.xaml.cs">
       <DependentUpon>Credits.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Event.xaml.cs">
+      <DependentUpon>Event.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EventBuildingsIngerence.cs" />
+    <Compile Include="RandomEventHandler.cs" />
+    <Compile Include="EventNeutral.cs" />
+    <Compile Include="EventPeriodicEffect.cs" />
+    <Compile Include="EventPPSandPPCIngerence.cs" />
+    <Compile Include="EventWalletIngerence.cs" />
     <Compile Include="Factory.cs" />
     <Compile Include="Loader.cs" />
     <Compile Include="MessageWindow.xaml.cs">
       <DependentUpon>MessageWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RandomEvent.cs" />
     <Compile Include="Saver.cs" />
     <Compile Include="Technologies.xaml.cs">
       <DependentUpon>Technologies.xaml</DependentUpon>
@@ -105,6 +116,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Credits.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Event.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -315,6 +330,60 @@
     <Resource Include="Resources\tech26U.png" />
     <Resource Include="Resources\tech27U.png" />
     <Resource Include="Resources\tech28U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ach_04.PNG" />
+    <Resource Include="Resources\ach_05.PNG" />
+    <Resource Include="Resources\ach_07.PNG" />
+    <Resource Include="Resources\ach_08.PNG" />
+    <Resource Include="Resources\ach_09.PNG" />
+    <Resource Include="Resources\ach_10.PNG" />
+    <Resource Include="Resources\ach_11.PNG" />
+    <Resource Include="Resources\ach_12.PNG" />
+    <Resource Include="Resources\ach_13.PNG" />
+    <Resource Include="Resources\ach_14.PNG" />
+    <Resource Include="Resources\ach_15.PNG" />
+    <Resource Include="Resources\ach_16.PNG" />
+    <Resource Include="Resources\ach_18.PNG" />
+    <Resource Include="Resources\ach_20.PNG" />
+    <Resource Include="Resources\ach_21.PNG" />
+    <Resource Include="Resources\ach_22.PNG" />
+    <Resource Include="Resources\ach_23.PNG" />
+    <Resource Include="Resources\ach_24.PNG" />
+    <Resource Include="Resources\ach_25.PNG" />
+    <Resource Include="Resources\ach_26.PNG" />
+    <Resource Include="Resources\ach_27.PNG" />
+    <Resource Include="Resources\ach_locked.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ach_00.png" />
+    <Resource Include="Resources\ach_02.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ach_03.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ach_01.PNG" />
+    <Resource Include="Resources\ach_06.PNG" />
+    <Resource Include="Resources\ach_17.PNG" />
+    <Resource Include="Resources\ach_19.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ev_00.PNG" />
+    <Resource Include="Resources\ev_01.PNG" />
+    <Resource Include="Resources\ev_02.PNG" />
+    <Resource Include="Resources\ev_03.PNG" />
+    <Resource Include="Resources\ev_04.PNG" />
+    <Resource Include="Resources\ev_05.PNG" />
+    <Resource Include="Resources\ev_06.PNG" />
+    <Resource Include="Resources\ev_07.PNG" />
+    <Resource Include="Resources\ev_08.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ach_bw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\clickAreaBackground9.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

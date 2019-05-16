@@ -50,7 +50,7 @@ namespace CityClickerGame
             achivements[0] = new Achivement("Focus", "Turn off music ", 1);
             achivements[1] = new Achivement("Curiostity", "Open credits window", 2);
             achivements[2] = new Achivement("Gon on!", "Open achivements window", 3);
-            achivements[3] = new Achivement("Louder!", "Load game", 4);
+            achivements[3] = new Achivement("Loader!", "Load game", 4);
             achivements[4] = new Achivement("Poor guy", "Collect 10000 (10 tousand palms)", 5);
             achivements[5] = new Achivement("Your first car!", "Collect 1000000 (million palms)", 6);
             achivements[6] = new Achivement("Cream of the crop", "Collect 1000000000 (milliard palms)", 7);
@@ -178,8 +178,9 @@ namespace CityClickerGame
             images[3] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground4.png", UriKind.Relative)), 50000);
             images[4] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground5.png", UriKind.Relative)), 300000);
             images[5] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground6.png", UriKind.Relative)), 1000000);
-            images[6] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground7.png", UriKind.Relative)), 5000000);
-            images[7] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground8.png", UriKind.Relative)), 10000000);
+            images[6] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground7.png", UriKind.Relative)), 4000000);
+            images[7] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground8.png", UriKind.Relative)), 8000000);
+            images[8] = new BackgroundImage(new BitmapImage(new Uri("Resources/clickAreaBackground9.png", UriKind.Relative)), 20000000);
         }
 
         //Fills shower thoughts list

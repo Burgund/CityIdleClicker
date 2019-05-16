@@ -37,9 +37,10 @@ namespace CityClickerGame
         Technology[] technologiesArray = new Technology[28];
         Random random = new Random();
         //backgroundsArrays contains all images for clickArea
-        BackgroundImage[] backgroundsArray = new BackgroundImage[8];
+        BackgroundImage[] backgroundsArray = new BackgroundImage[9];
         //Shower thoughts list
         List<string> thoughts = new List<string>();
+        RandomEventHandler reh = new RandomEventHandler();
 
         public MainWindow()
         {
@@ -79,6 +80,8 @@ namespace CityClickerGame
         {
             int index = random.Next(thoughts.Count);
             showerThoughts.Text = thoughts[index];
+            //random events handler doing stuff, parameters are two technologies: 24 - hyper computing and 20 - vertical biofarming
+            reh.ExecuteEvent(technologiesArray[24], technologiesArray[20]);
         }
 
         private void ClockEvents(object sender, EventArgs e)

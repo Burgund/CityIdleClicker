@@ -8,9 +8,6 @@ using System.Windows;
 
 namespace CityClickerGame
 {
-    /// <summary>
-    /// Logika interakcji dla klasy App.xaml
-    /// </summary>
     public partial class App : Application
     {
     }

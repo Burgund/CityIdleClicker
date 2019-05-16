@@ -4,12 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace CityClickerGame
 {
     class Saver
     {
-        string path = Directory.GetCurrentDirectory() + "\\SynthCitySave.txt";
+        string path = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\SynthCitySave.txt";
         string[][] convertedBuildings = new string[16][];
         string[][] convertedAchivements = new string[28][];
         string[][] convertedTechnologies = new string[28][];
@@ -76,24 +77,31 @@ namespace CityClickerGame
 
         public void SaveGame()
         {
-            string output = "";
-            for (int i = 0; i < convertedBuildings.Length; i++)
+            try
             {
-                output += string.Join("", convertedBuildings[i]);
+                string output = "";
+                for (int i = 0; i < convertedBuildings.Length; i++)
+                {
+                    output += string.Join("", convertedBuildings[i]);
+                }
+                output += Environment.NewLine;
+                for (int i = 0; i < convertedTechnologies.Length; i++)
+                {
+                    output += string.Join("", convertedTechnologies[i]);
+                }
+                output += Environment.NewLine;
+                for (int i = 0; i < convertedAchivements.Length; i++)
+                {
+                    output += string.Join("", convertedAchivements[i]);
+                }
+                output += Environment.NewLine;
+                output += string.Join("", convertedWallet);
+                File.WriteAllText(path, output);
             }
-            output += Environment.NewLine;
-            for (int i = 0; i <  convertedTechnologies.Length; i++)
+            catch(Exception e)
             {
-                output += string.Join("", convertedTechnologies[i]);
+                MessageBox.Show(e.Message);
             }
-            output += Environment.NewLine;
-            for (int i = 0; i < convertedAchivements.Length; i++)
-            {
-                output += string.Join("", convertedAchivements[i]);
-            }
-            output += Environment.NewLine;
-            output += string.Join("", convertedWallet);
-            File.WriteAllText(path, output);
         }
     }
 }

@@ -90,6 +90,7 @@ namespace CityClickerGame
             //Add money (palms) per second and put current value into textblock
             wallet.AddMoney(wallet.GetRealMoneyPerSecond());
             moneyAmount.Text = Convert.ToString(wallet.TotalMoney);
+            moneyAmount.ToolTip = Convert.ToString(wallet.TotalMoney);
 
             //Checking if it's a time to change clickArea image
             CheckForClickArea();
@@ -208,7 +209,7 @@ namespace CityClickerGame
         {
             try
             {
-                player.Stream = Properties.Resources.Airglow___03___Electrifying_Landscape__online_audio_converter_com_;
+                player.Stream = Properties.Resources.SynthCity_OST_Final;
                 player.PlayLooping();
             }
             catch (Exception e)

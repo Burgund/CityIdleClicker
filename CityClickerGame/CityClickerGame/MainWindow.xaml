@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CityClickerGame"
         mc:Ignorable="d"
-        Title="SynthCity 1.4.1" Height="695.478" Width="1095">
+        Title="SynthCity 1.5.0" Height="695.478" Width="1095">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="Resources/background.jpg">
@@ -234,7 +234,7 @@
         </TextBlock>
 
         <Image x:Name="moneyContainer" HorizontalAlignment="Left" Height="64" Margin="10,545,0,0" VerticalAlignment="Top" Width="64" Source="Resources/money.PNG"/>
-        <TextBlock x:Name="moneyAmount" HorizontalAlignment="Left" Margin="79,565,0,0" TextWrapping="Wrap" Text="0" Height="30" Width="240" LineHeight="6" FontSize="30" VerticalAlignment="Top" FontFamily="Visitor TT1 BRK" FontWeight="Bold" Background="#66FFFFFF">
+        <TextBlock x:Name="moneyAmount" HorizontalAlignment="Left" Margin="79,565,0,0" TextWrapping="Wrap" Text="0" Height="30" Width="240" LineHeight="6" FontSize="30" VerticalAlignment="Top" FontFamily="Visitor TT1 BRK" FontWeight="Bold" Background="#66FFFFFF" ToolTip="Dynamic ToolTip">
             <TextBlock.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF7F00D6" Offset="0"/>
@@ -454,6 +454,6 @@
                 </LinearGradientBrush>
             </TextBlock.Foreground>
         </TextBlock>
-
+        <TextBlock HorizontalAlignment="Left" Margin="18,603,-8,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="21" Grid.Column="1" Text="Music by Marek Domagała" Foreground="#FFE0E0E0" FontWeight="Bold" FontSize="10"/>
     </Grid>
 </Window>

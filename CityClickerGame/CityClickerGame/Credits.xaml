@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CityClickerGame"
         mc:Ignorable="d"
-        Title="Credits" Height="686.777" Width="570.661">
+        Title="Credits" Height="620.045" Width="570.661">
     <Window.Background>
         <ImageBrush ImageSource="Resources/background.jpg"/>
     </Window.Background>
@@ -13,12 +13,27 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBlock HorizontalAlignment="Left" Margin="24,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="#7FFFFFFF" FontSize="24" FontWeight="Bold" Height="596" Width="509" TextAlignment="Center">
+        <TextBlock HorizontalAlignment="Left" Margin="24,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="#7FFFFFFF" FontSize="24" FontWeight="Bold" Height="536" Width="509" TextAlignment="Center">
             <TextBlock.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF3E005B" Offset="0"/>
                     <GradientStop Color="#FF8C00CD" Offset="1"/>
                 </LinearGradientBrush>
-            </TextBlock.Foreground><Run Text="Idea, "/><Run Text="concept and "/><Run Text="programming"/><Run Text=":"/><LineBreak/><Run Text="Maciej 'Burgund' Burchardt"/><LineBreak/><Run/><LineBreak/><Run Text="Grapic design:"/><LineBreak/><Run Text="Maciej 'Burgund' Burchardt"/><LineBreak/><Run Text="Monika Burchardt"/><LineBreak/><Run/><LineBreak/><Run Text="Music:"/><LineBreak/><Run Text="Electrifying Landscape"/><Run Text=" by Airglow"/><LineBreak/><Run/><LineBreak/><Run Text="Check out following links:"/><LineBreak/><Run Text="1) "/><Run Text="&quot;"/><Run Text="Studio Graficzne Forma - Monika Burchardt"/><Run Text="&quot; on facebook"/><LineBreak/><Run Text="2) http://freemusicarchive.org"/><LineBreak/><Run Text="3) https://gamejolt.com/games/SynthCity/407852"/><LineBreak/><Run Text="4) https://github.com/Burgund/CityIdleClicker"/><LineBreak/><Run/></TextBlock>
+            </TextBlock.Foreground>
+            <Run Text="Idea, concept and programming:"/><LineBreak/>
+            <Run Text="Maciej 'Burgund' Burchardt"/><LineBreak/>
+            <Run/><LineBreak/>
+            <Run Text="Grapic design:"/><LineBreak/>
+            <Run Text="Maciej 'Burgund' Burchardt"/><LineBreak/>
+            <Run Text="Monika Burchardt"/><LineBreak/>
+            <Run/><LineBreak/>
+            <Run Text="Music:"/><LineBreak/>
+            <Run Text="Marek Domagała"/><LineBreak/>
+            <Run/><LineBreak/><Run Text="Check out following links:"/><LineBreak/>
+            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://soundcloud.com/marekdomagala"><Run FontSize="20" Text="Marek Domagała Soundcloud"/></Hyperlink><LineBreak/>
+            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://www.facebook.com/Studio-Graficzne-Forma-Monika-Burchardt-820887898264889/"><Run FontSize="20" Text="&quot;Studio Graficzne Forma - Monika Burchardt&quot;"/></Hyperlink><LineBreak/>
+            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://gamejolt.com/games/SynthCity/407852"><Run FontSize="20" Text="Gamejolt"/></Hyperlink><LineBreak/>
+            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://github.com/Burgund/CityIdleClicker"><Run FontSize="20" Text="Github"/></Hyperlink><LineBreak/>
+        </TextBlock>
     </Grid>
 </Window>

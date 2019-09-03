@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Airglow___03___Electrifying_Landscape__online_audio_converter_com_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\Airglow_-_03_-_Electrifying_Landscape (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="SynthCity_OST_Final" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SynthCity_OST_Final.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="thought1" xml:space="preserve">
     <value>Falling down is the same as being hit by a planet</value>

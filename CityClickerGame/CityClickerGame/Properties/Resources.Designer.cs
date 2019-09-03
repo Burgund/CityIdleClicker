@@ -63,9 +63,9 @@ namespace CityClickerGame.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.IO.UnmanagedMemoryStream podobny do zasobu System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream Airglow___03___Electrifying_Landscape__online_audio_converter_com_ {
+        internal static System.IO.UnmanagedMemoryStream SynthCity_OST_Final {
             get {
-                return ResourceManager.GetStream("Airglow___03___Electrifying_Landscape__online_audio_converter_com_", resourceCulture);
+                return ResourceManager.GetStream("SynthCity_OST_Final", resourceCulture);
             }
         }
         

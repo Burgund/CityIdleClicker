@@ -385,5 +385,8 @@
   <ItemGroup>
     <Resource Include="Resources\clickAreaBackground9.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SynthCity_OST_Final.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

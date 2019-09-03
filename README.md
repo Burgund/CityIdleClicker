@@ -1,15 +1,15 @@
-# Synth City Idle Clicker
-is a game of idle clickers familly (Cookie Clicker, Idle World etc.) created in .NET Windows Presentation Foundation. The goal is to earn as much money and build as much buildings as possible. Synthwave/vaporwave/retrowave design. </br>
+![SynthCity Logo](https://m.gjcdn.net/fireside-post-image/500/1919065-dgwc4rci-v4.jpg)
+
+SynthCity Idle Clicker</br>
 </br>
-SynthCity is now in beta version, the game still needs some changes, adjustments and balance.</br>
+is a game of idle clickers familly (Cookie Clicker, Idle World etc.) created in .NET Windows Presentation Foundation. The goal is to earn as much money (Palms), build as much buildings as possible and unlock all achivements.</br>
+</br>
+Make your SynthCity growing, invest in new buildings, purchase technologies, find easter eggs, unlock achivements and many more! Any feedback is welcome.</br>
+</br>
 Any feedback is welcome, especially about balancing prices and earnings but also about bug's and other suggestions!</br>
 </br>
-Things that will be changed:</br>
--money balance</br>
--add more random events (which are still not implemented!)</br>
--achivement message graphics</br>
--music</br>
--Visitor font is not available in windows 7 (status for others OS is unknown), will be added to game package in beta version. Note that this bug is known and some layouts/graphics bugs may ensue because of font lack</br>
+Issues:</br>
+- Visitor font is not available in windows 7 (status for others OS is unknown), will be added to game package in beta version. Note that this bug is known and some layouts/graphics bugs may ensue because of font lack.
+- During instalation there is a windows problem with untrusted software. You have to accept it manually, short manual how to solve it will be added soon.
 </br>
-Optional:</br>
--Add handler for tokens (gamejolt etc.)</br>
+You can download here-> [Gamejolt](https://gamejolt.com/games/SynthCity/407852).</br>
